@@ -55,7 +55,7 @@ with serial.Serial(ARDUINO_PORT, timeout=2.) as device:
 			data_val = device.readline().strip()
 			# change data from string to float
 			val.append(float(data_val))
-			time.sleep(.05)
+			# time.sleep(.05)
 
 		print(tuple(val))
 
