@@ -25,11 +25,11 @@ storeIt = ana_obj.data_for_display(nsample)
 def on_draw():
 
     # read data
-    data = ana_obj.gen_data()
-
+    val = ana_obj.gen_data()
+    print(val)
     # store data
     next(storeIt)
-    stored = storeIt.send(data)
+    stored = storeIt.send(val)
 
     # make the data ready to draw
     # make the data ready to draw
@@ -40,8 +40,8 @@ def on_draw():
 
     # draw
     glClear(GL_COLOR_BUFFER_BIT)
-    ana_obj.draw(datax)
-    ana_obj.draw(datay)
+    ana_obj.draw(datax, color=(0, 255, 0))
+    ana_obj.draw(datay, color=(255, 0, 0))
 
 pyglet.app.run()
 

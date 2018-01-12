@@ -29,4 +29,6 @@ with serial.Serial(ARDUINO_PORT, timeout=2.) as device:
 			time.sleep(.05)
 		print(val)
 		time.sleep(.2)
-		
+
+
+	# here is when we wanna draw
