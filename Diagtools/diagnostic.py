@@ -19,20 +19,22 @@ class Diagnose:
         if self.mode == 'sliding':
             while True:
                 data = yield
-                dd.append(data)
+                for el in data:
+                    dd.append(el)
                 yield dd
 
         elif self.mode == 'update':
             ind = 0
             while True:
                 data = yield
-                if len(dd) < nsample:
-                    dd.append(data)
-                else:
-                    dd[ind] = data
-                ind += 1
-                if ind == nsample:
-                    ind = 0
+                for el in data:
+                    if len(dd) < nsample:
+                        dd.append(el)
+                    else:
+                        dd[ind] = el
+                    ind += 1
+                    if ind == nsample:
+                        ind = 0
 
                 yield dd
 

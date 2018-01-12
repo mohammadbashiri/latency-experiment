@@ -44,7 +44,8 @@ with serial.Serial(ARDUINO_PORT, timeout=2.) as device:
 
 
 	# read sensor value
-	val = deque(maxlen=2)
+	val_read = deque(maxlen=2)
+	val_buffer = deque(maxlen=1)
 
 	@window.event
 	def on_draw(): # DOES THE SAME JOB AS WHILE TRUE
@@ -54,14 +55,15 @@ with serial.Serial(ARDUINO_PORT, timeout=2.) as device:
 			device.write(sensor)
 			data_val = device.readline().strip()
 			# change data from string to float
-			val.append(float(data_val))
+			val_read.append(float(data_val))
 			# time.sleep(.05)
 
-		print(tuple(val))
+		val_buffer.append(tuple(val_read))
+		print(val_buffer)
 
 		# store data
 		next(storeIt)
-		stored = storeIt.send(tuple(val))
+		stored = storeIt.send(val_buffer)
 
 		# make the data ready to draw
 		# make the data ready to draw

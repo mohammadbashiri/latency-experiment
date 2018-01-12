@@ -7,15 +7,13 @@ import time
 
 
 def readdata_thread_func(interval=.001):
-    global data_read
-    val = deque(maxlen=10)
-    data_read = ()
+    global val
+    val = deque(maxlen=5)
     while True:
         # read data
         time.sleep(interval)
         val.append(ana_obj.gen_data())
-        data_read = tuple(np.array(val).flatten())
-        print(data_read)
+        print(val)
 
 
 if __name__ == '__main__':
@@ -46,10 +44,10 @@ if __name__ == '__main__':
 
         # # read data
         # val = ana_obj.gen_data()
-        print(data_read, 'draw')
+        print(val, 'draw')
         # store data
         next(storeIt)
-        stored = storeIt.send(data_read)
+        stored = storeIt.send(val)
 
         # make the data ready to draw
         # make the data ready to draw
