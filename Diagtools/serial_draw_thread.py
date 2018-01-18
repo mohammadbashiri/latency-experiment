@@ -13,7 +13,7 @@ import time
 def readdata_thread_func(interval=.01): # interval is in second
 
     global data_buffer
-    data_buffer = deque(maxlen=2) # data buffer - specifies how much data you wanna store (this case latest 5 data)
+    data_buffer = deque(maxlen=5) # data buffer - specifies how much data you wanna store (this case latest 5 data)
     data_read = deque(maxlen=2) # what is coming from arduino(one value for two channels at a time -> so two values)
 
     # Set the port value
@@ -54,9 +54,11 @@ if __name__ == '__main__':
     readdata_thread.start()
 
     # create a diagnostic object
-    ana_obj = Diagnose(mode='update')
+    ana_obj = Diagnose(mode='slide')
 
-    window = pyglet.window.Window(1600, 300, resizable=True)
+    window = pyglet.window.Window(600, 300, resizable=True, vsync=True)
+    fps_display = pyglet.window.FPSDisplay(window)
+
     pyglet.gl.glClearColor(0.9, 0.9, 0.9, 1)  # background color
 
     i = 0
@@ -66,7 +68,7 @@ if __name__ == '__main__':
                           x=window.width//2, y=window.height//2,
                           anchor_x='center', anchor_y='center')
 
-    dist = 5  # this is the distance between each data point on the graph!
+    dist = 1  # this is the distance between each data point on the graph!
     nsample = window.width // dist
     storeIt = ana_obj.data_for_display(nsample)
 
@@ -97,22 +99,19 @@ if __name__ == '__main__':
 
         # draw
         glClear(GL_COLOR_BUFFER_BIT)
-        ana_obj.draw(datax, color=(0, 255, 0))
-        ana_obj.draw(datay, color=(255, 0, 0))
+        ana_obj.draw(datax, color=(0, 0, 0))
+        ana_obj.draw(datay, color=(0, 0, 0))
 
-        x_val_label = pyglet.text.Label(str(x_val),
-                                        font_name='Times New Roman',
-                                        font_size=36,
+        x_val_label = pyglet.text.Label(str(x_val), font_size=36,
                                         x=window.width//2, y=x_offset + 80,
                                         anchor_x='center', anchor_y='center',
                                         color=(0, 0, 0, 100))
-        y_val_label = pyglet.text.Label(str(y_val),
-                                        font_name='Times New Roman',
-                                        font_size=36,
+        y_val_label = pyglet.text.Label(str(y_val), font_size=36,
                                         x=window.width//2, y=y_offset - 40,
                                         anchor_x='center', anchor_y='center',
                                         color=(0, 0, 0, 100))
         x_val_label.draw()
         y_val_label.draw()
+        fps_display.draw()
 
     pyglet.app.run()
