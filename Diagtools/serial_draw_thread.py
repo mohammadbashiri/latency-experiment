@@ -9,17 +9,19 @@ import time
 import serial
 import time
 
+# set the frequency of data reading - this is in terms of
+def readdata_thread_func(interval=.1): # interval is in second
 
-def readdata_thread_func(interval=.01):
     global data_buffer
-    data_buffer = deque(maxlen=5) # data buffer
-    data_read = deque(maxlen=2) # what is coming from arduino(one value for two channels at a time)
+    data_buffer = deque(maxlen=5) # data buffer - specifies how much data you wanna store (this case latest 5 data)
+    data_read = deque(maxlen=2) # what is coming from arduino(one value for two channels at a time -> so two values)
 
-    # Arduino and serial stuff
+    # Set the port value
     ARDUINO_PORT = 'COM9'
-
     print('Connecting...')
+
     with serial.Serial(ARDUINO_PORT, timeout=2.) as device:
+
         print('Connection Successful.  Emptying Buffer...')
         print(device.readlines())
         print('Buffer Empty.  Testing Signal...')
@@ -28,14 +30,14 @@ def readdata_thread_func(interval=.01):
         device.write(b'D')
         msg = device.readline()
         print(msg)
-        if not 'Confirmation' in msg:
+        if not b'Confirmation' in msg:
             raise ValueError("word 'Confirmation' not in message.  Ping test not successful.")
         else:
             print('Signaling Successful!')
 
         while True:
-            time.sleep(interval)
-            # read data
+            time.sleep(interval) # give some space to other programs to run (in this case image rendering)
+            # read data - this is a loop that read two data
             for sensor in (b'A', b'B'):
                 device.write(sensor)
                 data_val = device.readline().strip()
@@ -43,12 +45,12 @@ def readdata_thread_func(interval=.01):
                 data_read.append(float(data_val))
 
             data_buffer.append(tuple(data_read))
-            print(data_buffer, 'Buffer!')
+            # print(data_buffer, 'Buffer!')
 
 
 if __name__ == '__main__':
 
-    readdata_thread = Thread(target=readdata_thread_func)
+    readdata_thread = Thread(target=readdata_thread_func, daemon=True)
     readdata_thread.start()
 
     # create a diagnostic object
@@ -61,9 +63,9 @@ if __name__ == '__main__':
     pyglet.clock.schedule(update)
 
     window = pyglet.window.Window()
-    pyglet.gl.glClearColor(0.9, 0.9, 0.9, 1)
+    pyglet.gl.glClearColor(0.9, 0.9, 0.9, 1)  # background color
 
-    dist = 1
+    dist = 5  # this is the distance between each data point on the graph!
     nsample = window.width // dist
     storeIt = ana_obj.data_for_display(nsample)
 
@@ -72,14 +74,10 @@ if __name__ == '__main__':
     @window.event
     def on_draw():
 
-        # # read data
-        # val = ana_obj.gen_data()
-        # print(data_buffer, 'draw')
         # store data
         next(storeIt)
         stored = storeIt.send(data_buffer)
 
-        # make the data ready to draw
         # make the data ready to draw
         x_offset = 3 * window.height / 4.
         y_offset = window.height / 4.

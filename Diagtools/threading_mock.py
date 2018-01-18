@@ -8,7 +8,7 @@ import time
 
 def readdata_thread_func(interval=.001):
     global val
-    val = deque(maxlen=5)
+    val = deque(maxlen=1)
     while True:
         # read data
         time.sleep(interval)
