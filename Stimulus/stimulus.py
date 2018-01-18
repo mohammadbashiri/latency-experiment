@@ -9,6 +9,19 @@ fac = 75
 size_h = 20
 size_w = 20
 
+
+# label = pyglet.text.Label('Hello, world',
+#                           font_name='Times New Roman',
+#                           font_size=36,
+#                           x=window.width//2, y=window.height//2,
+#                           anchor_x='center', anchor_y='center')
+
+# Create the update function, for pyglet to run!
+def update(dt):
+    pass
+
+pyglet.clock.schedule(update)
+
 @window.event
 def on_draw():
 
@@ -17,11 +30,6 @@ def on_draw():
              window.width/2 - size_w/2, window.height/2 + size_h/2,
              window.width/2 + size_w/2, window.height/2 + size_h/2,
              window.width/2 + size_w/2, window.height/2 - size_h/2))
-    # ('c3b', (255, 255, 255,
-    #          255, 255, 255,
-    #          255, 255, 255,
-    #          255, 255, 255))
-
     )
 
 

@@ -4,7 +4,7 @@ from collections import deque
 
 class Diagnose:
 
-    def __init__(self, mode='sliding'):
+    def __init__(self, mode='slide'):
         self.mode = mode
 
     def gen_data(self):
@@ -16,7 +16,7 @@ class Diagnose:
 
         dd = deque(maxlen=nsample)
 
-        if self.mode == 'sliding':
+        if self.mode == 'slide':
             while True:
                 data = yield
                 for el in data:
@@ -59,7 +59,7 @@ class Diagnose:
 
 class Visualize:
 
-    def __init__(self, mode='sliding'):
+    def __init__(self, mode='slide'):
 
         # create a diagnostic object
         ana_obj = Diagnose(mode)

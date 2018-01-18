@@ -33,7 +33,7 @@ if __name__ == '__main__':
     window = pyglet.window.Window()
     pyglet.gl.glClearColor(0.9, 0.9, 0.9, 1)
 
-    dist = 5
+    dist = 1
     nsample = window.width // dist
     storeIt = ana_obj.data_for_display(nsample)
 

@@ -10,10 +10,10 @@ import serial
 import time
 
 # set the frequency of data reading - this is in terms of
-def readdata_thread_func(interval=.1): # interval is in second
+def readdata_thread_func(interval=.01): # interval is in second
 
     global data_buffer
-    data_buffer = deque(maxlen=5) # data buffer - specifies how much data you wanna store (this case latest 5 data)
+    data_buffer = deque(maxlen=2) # data buffer - specifies how much data you wanna store (this case latest 5 data)
     data_read = deque(maxlen=2) # what is coming from arduino(one value for two channels at a time -> so two values)
 
     # Set the port value
@@ -56,19 +56,25 @@ if __name__ == '__main__':
     # create a diagnostic object
     ana_obj = Diagnose(mode='update')
 
-    # create the update function, for pyglet to run!
-    def update(dt):
-        pass
-
-    pyglet.clock.schedule(update)
-
-    window = pyglet.window.Window()
+    window = pyglet.window.Window(1600, 300, resizable=True)
     pyglet.gl.glClearColor(0.9, 0.9, 0.9, 1)  # background color
+
+    i = 0
+    label = pyglet.text.Label(str(i),
+                          font_name='Times New Roman',
+                          font_size=36,
+                          x=window.width//2, y=window.height//2,
+                          anchor_x='center', anchor_y='center')
 
     dist = 5  # this is the distance between each data point on the graph!
     nsample = window.width // dist
     storeIt = ana_obj.data_for_display(nsample)
 
+    # Create the update function, for pyglet to run!
+    def update(dt):
+        pass
+
+    pyglet.clock.schedule(update)
 
 
     @window.event
@@ -78,8 +84,13 @@ if __name__ == '__main__':
         next(storeIt)
         stored = storeIt.send(data_buffer)
 
+        if len(stored) != 0:
+            x_val, y_val = np.round(np.mean(stored, axis=0), 2)
+        else:
+            x_val, y_val = 0, 0
+
         # make the data ready to draw
-        x_offset = 3 * window.height / 4.
+        x_offset = 2.5 * window.height / 4.
         y_offset = window.height / 4.
         datax, datay = ana_obj.ready_to_draw(stored, x_scale=10, x_offset=x_offset,
                                              y_scale=10, y_offset=y_offset, dist=dist)
@@ -88,5 +99,20 @@ if __name__ == '__main__':
         glClear(GL_COLOR_BUFFER_BIT)
         ana_obj.draw(datax, color=(0, 255, 0))
         ana_obj.draw(datay, color=(255, 0, 0))
+
+        x_val_label = pyglet.text.Label(str(x_val),
+                                        font_name='Times New Roman',
+                                        font_size=36,
+                                        x=window.width//2, y=x_offset + 80,
+                                        anchor_x='center', anchor_y='center',
+                                        color=(0, 0, 0, 100))
+        y_val_label = pyglet.text.Label(str(y_val),
+                                        font_name='Times New Roman',
+                                        font_size=36,
+                                        x=window.width//2, y=y_offset - 40,
+                                        anchor_x='center', anchor_y='center',
+                                        color=(0, 0, 0, 100))
+        x_val_label.draw()
+        y_val_label.draw()
 
     pyglet.app.run()
