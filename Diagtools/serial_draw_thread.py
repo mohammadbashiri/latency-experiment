@@ -5,7 +5,6 @@ from pyglet.gl import *
 from threading import Thread
 from collections import deque
 import numpy as np
-import time
 import serial
 import time
 

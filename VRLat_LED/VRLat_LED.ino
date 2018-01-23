@@ -12,46 +12,18 @@ float actual_value=0;
 
 int incomingByte = 0;   // for incoming serial data
 
+int sensor_val[2];
 
 void setup() {
-
-Serial.begin(9600);          //  setup serial
-  
+  Serial.begin(9600);          //  setup serial
 }
 
 void loop() {
-
-if (Serial.available() > 0) {
-                
-incomingByte = Serial.read(); // read the incoming byte:
-
-  // send confirmation - ping test
-  if(incomingByte == 68) // ord('D') = 68
-  {
-    Serial.println("Confirmation of connection to Arduino board!");
-    }
-
-  else if(incomingByte == 65) // ord('A') = 65 -> if 'A' is received
-  {
-    
-//    MySW.reset(); // resets the measurement
-//    MySW.start();
-//    MySW.stop();
-//    Serial.println(MySW.elapsed());
-
-    val_Right = analogRead(analogPin_Right);
-    actual_value= (5.0 * val_Right)/1024.0;     
-    Serial.println(actual_value);     
-
-   
-  }                
-  else if(incomingByte == 66) // ord('B') = 66 -> if 'B' is received
-  {
-    val_Left = analogRead(analogPin_Left);
-    actual_value= (5.0 * val_Left)/1024.0;     
-    Serial.println(actual_value); 
-  } 
-       
-}
-//delay(1000);
+  val_Left  = analogRead(analogPin_Left); //
+  val_Right = analogRead(analogPin_Right); //
+  
+  Serial.print(val_Left, BIN);
+  Serial.print(",");
+  Serial.println(val_Right, BIN);
+  delay(10);
 }
