@@ -22,7 +22,7 @@ class plane:
 
 class Stimulus:
 
-    def __init__(self, window=None, type='POINT', x=0, y=0, width=1, height=1, color=(255, 255, 255)):
+    def __init__(self, window=None, type='PLANE', x=0, y=0, width=1, height=1, color=(255, 255, 255)):
 
         self.type = type
         self._win = window
@@ -73,7 +73,7 @@ class Stimulus:
         self._color = val
 
     def draw(self):
-        if self.type == 'POINT':
+        if self.type == 'PLANE':
             self._obj = plane(window=self._win, x=self.x, y=self.y,
                               width=self.width, height=self.height, color=self.color)
             self._obj.vertices.draw(pyglet.gl.GL_POLYGON)
@@ -88,15 +88,14 @@ if __name__ == '__main__':
     mywin = pyglet.window.Window(fullscreen=True, screen=screen)
 
     # initialize a stim object
-    mypoint = Stimulus(window=mywin, type='POINT', x=mywin.width//2, y=mywin.height//2, width=10, height=10)
-
+    mypoint = Stimulus(window=mywin, type='PLANE', x=mywin.width//2, y=mywin.height//2, width=10, height=10)
 
     @mywin.event
     def on_draw():
         mywin.clear()
         mypoint.draw()
 
-    heights = itertools.cycle([100,10])
+    heights = itertools.cycle([800,1000])
     colors = itertools.cycle([(255, 0, 0),(0, 255, 0)])
     def update(dt):
         Stimulus.x = next(heights)
@@ -104,4 +103,5 @@ if __name__ == '__main__':
 
     pyglet.clock.schedule_interval(update, 1)
 
+    update(0)  # calling update function once
     pyglet.app.run()

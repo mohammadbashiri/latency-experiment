@@ -9,43 +9,28 @@ import serial
 import time
 
 # set the frequency of data reading - this is in terms of
-def readdata_thread_func(interval=.0001): # interval is in second
+def readdata_thread_func(interval=.001): # interval is in second
 
     global data_buffer
-    data_buffer = deque(maxlen=5) # data buffer - specifies how much data you wanna store (this case latest 5 data)
+    data_buffer = deque(maxlen=10) # data buffer - specifies how much data you wanna store (this case latest 5 data)
     data_read = deque(maxlen=2) # what is coming from arduino(one value for two channels at a time -> so two values)
 
     # Set the port value
     ARDUINO_PORT = 'COM9'
-    BAUDEATE = 19200
+    BAUDRATE = 9600
     print('Connecting...')
 
-    with serial.Serial(ARDUINO_PORT, baudrate=BAUDEATE, timeout=2.) as device:
+    with serial.Serial(ARDUINO_PORT, baudrate=BAUDRATE, timeout=2.) as device:
 
         print('Connection Successful.  Emptying Buffer...')
-        print(device.readlines())
+        print(device.readline())
         print('Buffer Empty.  Testing Signal...')
 
-        # Ping Test
-        device.write(b'D')
-        msg = device.readline()
-        print(msg)
-        if not b'Confirmation' in msg:
-            raise ValueError("word 'Confirmation' not in message.  Ping test not successful.")
-        else:
-            print('Signaling Successful!')
-
         while True:
-            time.sleep(interval) # give some space to other programs to run (in this case image rendering)
-            # read data - this is a loop that read two data
-            for sensor in (b'A', b'B'):
-                device.write(sensor)
-                data_val = device.readline().strip()
-                # change data from string to float
-                data_read.append(float(data_val))
-
-            data_buffer.append(tuple(data_read))
-            # print(data_buffer, 'Buffer!')
+            time.sleep(interval)
+            data_val = device.readline().strip()
+            data_val = data_val.split(sep=b',')
+            data_buffer.append(tuple(map(int, data_val)))
 
 
 if __name__ == '__main__':
@@ -68,7 +53,7 @@ if __name__ == '__main__':
                           x=window.width//2, y=window.height//2,
                           anchor_x='center', anchor_y='center')
 
-    dist = 3  # this is the distance between each data point on the graph!
+    dist = 10  # this is the distance between each data point on the graph!
     nsample = window.width // dist
     storeIt = ana_obj.data_for_display(nsample)
 
@@ -94,8 +79,8 @@ if __name__ == '__main__':
         # make the data ready to draw
         x_offset = 2.5 * window.height / 4.
         y_offset = window.height / 4.
-        datax, datay = ana_obj.ready_to_draw(stored, x_scale=20, x_offset=x_offset,
-                                             y_scale=20, y_offset=y_offset, dist=dist)
+        datax, datay = ana_obj.ready_to_draw(stored, x_scale=.1, x_offset=x_offset,
+                                             y_scale=.1, y_offset=y_offset, dist=dist)
 
         # draw
         glClear(GL_COLOR_BUFFER_BIT)

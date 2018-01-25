@@ -15,7 +15,7 @@ int incomingByte = 0;   // for incoming serial data
 
 void setup() {
 
-Serial.begin(9600);          //  setup serial
+Serial.begin(19200);          //  setup serial
   
 }
 

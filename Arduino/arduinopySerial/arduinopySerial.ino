@@ -8,8 +8,6 @@ int val_Left = 0;               // variable to store the value read of Left Diod
 int analogPin_Right = 3;        // Right PhotoDiode connect on anaglog pin3  
 int val_Right = 0;              // variable to store the value read of Right Diode
 
-float actual_value=0;
-
 int incomingByte = 0;   // for incoming serial data
 
 int sensor_val[2];
@@ -19,11 +17,14 @@ void setup() {
 }
 
 void loop() {
-  val_Left  = analogRead(analogPin_Left); //
-  val_Right = analogRead(analogPin_Right); //
+  val_Left = analogRead(analogPin_Left); //
+//  val_Left = (5.0 * val_Left)/1024.0;
   
-  Serial.print(val_Left, BIN);
+  val_Right = analogRead(analogPin_Right); //
+//  val_Right = (5.0 * val_Right)/1024.0;
+  
+  Serial.print(val_Left);
   Serial.print(",");
-  Serial.println(val_Right, BIN);
+  Serial.println(val_Right);
   delay(10);
 }

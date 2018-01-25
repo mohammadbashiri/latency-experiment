@@ -7,10 +7,9 @@ platform = pyglet.window.get_platform()
 display = platform.get_default_display()
 screen = display.get_screens()[1]
 mywin = pyglet.window.Window(fullscreen=True, screen=screen)
-fps_display = pyglet.window.FPSDisplay(mywin)
 
 # initialize a stim object
-mypoint = Stimulus(window=mywin, type='POINT', x=mywin.width//2, y=mywin.height//2, width=4, height=4)
+mypoint = Stimulus(window=mywin, type='PLANE', x=mywin.width//2, y=mywin.height//2, width=4, height=4)
 
 colors = (
     [255, 255, 255],
@@ -29,8 +28,6 @@ def on_draw():
         mypoint.x = int(x)
         mypoint.color = c
         mypoint.draw()
-
-    fps_display.draw()
 
 heights = itertools.cycle([mywin.height//2, mywin.height//2 + 100])
 def update(dt, heights):
