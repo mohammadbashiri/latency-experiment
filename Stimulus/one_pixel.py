@@ -5,7 +5,6 @@ import numpy as np
 
 OSCILLATE = True
 
-
 platform = pyglet.window.get_platform()
 display = platform.get_default_display()
 screen = display.get_screens()[1]
@@ -37,8 +36,7 @@ def on_draw():
             plane.position.x = x
             plane.uniforms['diffuse'] = color
             plane.draw()
-		
-		
+
 	
 ys = itertools.cycle([.1, 0])
 def update(dt, ys):
