@@ -95,13 +95,13 @@ if __name__ == '__main__':
         mywin.clear()
         mypoint.draw()
 
-    heights = itertools.cycle([800,1000])
+    heights = itertools.cycle([950,1050])
     colors = itertools.cycle([(255, 0, 0),(0, 255, 0)])
     def update(dt):
         Stimulus.x = next(heights)
         Stimulus.color = next(colors)
 
-    pyglet.clock.schedule_interval(update, 1)
+    pyglet.clock.schedule_interval(update, .5)
 
     update(0)  # calling update function once
     pyglet.app.run()
