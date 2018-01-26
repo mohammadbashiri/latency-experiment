@@ -8,12 +8,14 @@ int val_Left = 0;               // variable to store the value read of Left Diod
 int analogPin_Right = 3;        // Right PhotoDiode connect on anaglog pin3  
 int val_Right = 0;              // variable to store the value read of Right Diode
 
-int incomingByte = 0;   // for incoming serial data
-
-int sensor_val[2];
-
 void setup() {
-  Serial.begin(9600);          //  setup serial
+  Serial.begin(115200);          //  setup serial
+
+/// setting the prescaler
+  ADCSRA &= ~(bit (ADPS0) | bit (ADPS1) | bit (ADPS2)); // clear prescaler bits
+
+//  ADCSRA |= bit (ADPS0);                               //   2
+  ADCSRA |= bit (ADPS1) | bit (ADPS2);                 //  64
 }
 
 void loop() {
@@ -25,6 +27,7 @@ void loop() {
   
   Serial.print(val_Left);
   Serial.print(",");
-  Serial.println(val_Right);
-  delay(10);
+  Serial.print(val_Right);
+  Serial.print("\n");
+//  delay(.1);
 }
