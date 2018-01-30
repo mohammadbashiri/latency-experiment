@@ -8,6 +8,13 @@ int val_Left = 0;               // variable to store the value read of Left Diod
 int analogPin_Right = 3;        // Right PhotoDiode connect on anaglog pin3  
 int val_Right = 0;              // variable to store the value read of Right Diode
 
+struct Packet {
+  int start;
+  unsigned long time_m;
+  int left; 
+  int right;
+};
+
 void setup() {
   Serial.begin(115200);          //  setup serial
 
@@ -19,15 +26,8 @@ void setup() {
 }
 
 void loop() {
-  val_Left = analogRead(analogPin_Left); //
-//  val_Left = (5.0 * val_Left)/1024.0;
-  
-  val_Right = analogRead(analogPin_Right); //
-//  val_Right = (5.0 * val_Right)/1024.0;
-  
-  Serial.print(val_Left);
-  Serial.print(",");
-  Serial.print(val_Right);
-  Serial.print("\n");
-//  delay(.1);
+  Packet data = {255, micros(), analogRead(analogPin_Left), analogRead(analogPin_Right)};
+//  int arr[] = {255, 1, 2, 63};
+//  Serial.write((byte*)&data, sizeof(data));  // send data 
+  Serial.println(sizeof(data));
 }
