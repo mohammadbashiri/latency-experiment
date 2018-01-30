@@ -12,10 +12,10 @@ void setup() {
   Serial.begin(115200);          //  setup serial
 
 /// setting the prescaler
-  ADCSRA &= ~(bit (ADPS0) | bit (ADPS1) | bit (ADPS2)); // clear prescaler bits
+//  ADCSRA &= ~(bit (ADPS0) | bit (ADPS1) | bit (ADPS2)); // clear prescaler bits
 
 //  ADCSRA |= bit (ADPS0);                               //   2
-  ADCSRA |= bit (ADPS1) | bit (ADPS2);                 //  64
+//  ADCSRA |= bit (ADPS1) | bit (ADPS2);                 //  64
 }
 
 void loop() {
