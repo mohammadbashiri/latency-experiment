@@ -63,4 +63,3 @@ with serial.Serial(ARDUINO_PORT, baudrate=BAUDRATE, timeout=2.) as device:
         # print(data[0]-old_time, data[0], data[2], data[4], '\n')
         # old_time = data[0]
         print(data)
-k
