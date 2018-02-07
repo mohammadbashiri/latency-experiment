@@ -37,7 +37,7 @@ def on_draw():
         mypoint.color = c
         mypoint.draw()
 
-heights = itertools.cycle([mywin.height//2, mywin.height//2 + 43])
+heights = itertools.cycle([mywin.height//2, mywin.height//2 + 41])
 def update(dt, heights):
     mypoint.y = next(heights)
 
