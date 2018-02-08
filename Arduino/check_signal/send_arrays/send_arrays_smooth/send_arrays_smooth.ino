@@ -36,8 +36,8 @@ Packet read_sensors(){
   int left = 0;
   int right = 0;
   for (int rep=0; rep < win_len; rep++){
-    left += analogRead(analogPin_Left);
-    right += analogRead(analogPin_Right);
+    left += analogRead(analogPin_Left) / win_len;
+    right += analogRead(analogPin_Right) / win_len;
   }
   Packet data = {micros(), left, right};
   return data;

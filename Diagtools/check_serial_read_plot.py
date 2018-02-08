@@ -8,7 +8,7 @@ import time
 ARDUINO_PORT = 'COM9'
 BAUDRATE = 250000
 
-POINTS = 200
+POINTS = 400
 print('Connecting...')
 
 with serial.Serial(ARDUINO_PORT, baudrate=BAUDRATE, timeout=2.) as device:
