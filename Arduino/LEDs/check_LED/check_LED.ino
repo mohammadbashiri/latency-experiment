@@ -35,8 +35,8 @@ void loop() {
   // set the LEDs high or low
   set_LeftLEDs(LOW);
   set_RightLEDs(HIGH);
-  delay(1000);
+  delay(500);
   set_RightLEDs(LOW);
   set_LeftLEDs(HIGH);
-  delay(1000);  
+  delay(500);  
 }
