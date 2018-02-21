@@ -8,6 +8,8 @@ short left_LED1 = 11;
 short left_LED2 = 12;
 short left_LED3 = 13;
 
+int counter = 1;
+
 void setup() {
   // initialize digital LED pin as an output.
   pinMode(Right_LED1, OUTPUT);
@@ -16,6 +18,9 @@ void setup() {
   pinMode(left_LED1, OUTPUT);
   pinMode(left_LED2, OUTPUT);
   pinMode(left_LED3, OUTPUT);
+
+  set_RightLEDs(LOW);
+  set_LeftLEDs(HIGH);
 }
 
 void set_LeftLEDs(bool level){
@@ -33,10 +38,9 @@ void set_RightLEDs(bool level){
 void loop() {
 
   // set the LEDs high or low
-  set_LeftLEDs(LOW);
-  set_RightLEDs(HIGH);
-  delay(500);
-  set_RightLEDs(LOW);
-  set_LeftLEDs(HIGH);
-  delay(500);  
+  
+  if (counter%1000==0)
+    set_LeftLEDs(LOW);
+    set_RightLEDs(LOW);
+    counter++; 
 }
