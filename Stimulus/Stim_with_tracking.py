@@ -22,8 +22,7 @@ plane.point_size = 4.
 plane.position.xyz = 0, 0, -3
 plane.rotation.x = 0
 plane.scale.xyz = .2
-
-
+# plane.uniforms['diffuse'] = [0., 0., 0.]
 
 @mywin.event
 def on_draw():
@@ -32,7 +31,7 @@ def on_draw():
         plane.draw()
 
 
-    fr.draw()
+    # fr.draw()
     # print(plane.position, LED.position)
 
 def update(dt):
