@@ -23,7 +23,7 @@ with serial.Serial(ARDUINO_PORT, baudrate=BAUDRATE, timeout=2.) as device:
 
 
 dd = np.array(data).reshape(-1, 5)
-df = pd.DataFrame(data=dd, columns=['Time', "Chan1", "Chan2", 'Trial', 'LED_State'], index=dd[:, 0])
+df = pd.DataFrame(data=dd, columns=['Time', "Chan1", "Chan2", 'Trial', 'LED_State'])
 df.to_csv('../Measurements/s02_210218_white.csv')
 
 # plt.scatter(dd[:, 0] / 1000, dd[:, 1], .5)
