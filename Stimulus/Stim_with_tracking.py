@@ -18,7 +18,7 @@ fr = pyglet.window.FPSDisplay(mywin)
 
 # initialize a stim object
 plane = rc.WavefrontReader(rc.resources.obj_primitives).get_mesh('Plane', drawmode=rc.POINTS)
-plane.point_size = 4.
+plane.point_size = 10.
 plane.position.xyz = 0, 0, -3
 plane.rotation.x = 0
 plane.scale.xyz = .2
