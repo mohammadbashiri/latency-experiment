@@ -2,8 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b076626-2340-4257-a3db-acd4153f53e0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.workspace.xml.swp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.workspace_BASE_6308.xml.swp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.workspace_BASE_8008.xml.swp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.workspace_LOCAL_6308.xml.swp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.workspace_LOCAL_8008.xml.swp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.workspace_REMOTE_6308.xml.swp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.workspace_REMOTE_8008.xml.swp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/VRLatency.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/code.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace_BACKUP_4484.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace_BACKUP_6308.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace_BACKUP_8008.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace_BASE_4484.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace_BASE_6308.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace_BASE_8008.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace_LOCAL_4484.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace_LOCAL_6308.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace_LOCAL_8008.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace_REMOTE_4484.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace_REMOTE_6308.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace_REMOTE_8008.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/README-checkpoint.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/plotIt3-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Diagtools/.ipynb_checkpoints/arduino_serial_read-checkpoint.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notebooks/.ipynb_checkpoints/Latency Analysis-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reports/.ipynb_checkpoints/LatencyAnalysis_01-checkpoint.html" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -631,7 +660,13 @@
       <option name="project" value="LOCAL" />
       <updated>1519406653640</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="add analysis script&#10;">
+      <created>1519406695143</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1519406695143</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
