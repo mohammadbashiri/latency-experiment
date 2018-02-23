@@ -49,7 +49,6 @@ void loop() {
   // switch LEDs and send timing data
 
   delay_count = random(100, 300);
-  Serial.println(delay_count);
   
   if (counter%delay_count==0 && led_state==0){
     set_LEDs(left_LEDs, 3, HIGH);
