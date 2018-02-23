@@ -10,6 +10,7 @@ int analogPin_Right = 3;        // Right PhotoDiode connect on anaglog pin3
 bool led_state = 0;
 int trial = 0;
 int counter = 1;
+int delay_count = 1000;
 
 struct Packet {
   unsigned long time_m;
@@ -46,13 +47,16 @@ void set_LEDs(short *array_of_LEDs, short array_size, bool level){
 void loop() {
   
   // switch LEDs and send timing data
-  if (counter%1000==0 && led_state==0){
+
+  delay_count = random(100, 1000);
+  
+  if (counter%delay_count==0 && led_state==0){
     set_LEDs(left_LEDs, 3, HIGH);
     set_LEDs(right_LEDs, 3, LOW);
     led_state = 1;
     trial++;
     }
-  else if (counter%1000==0 && led_state==1){
+  else if (counter%delay_count==0 && led_state==1){
     set_LEDs(left_LEDs, 3, LOW);
     set_LEDs(right_LEDs, 3, HIGH);
     led_state = 0;
