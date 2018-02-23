@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import click
+import seaborn as sns
 
 
 def plot_latency_hist(df, win_size=9, threshold=5, ax=None):
@@ -29,14 +31,22 @@ def plot_latency_hist(df, win_size=9, threshold=5, ax=None):
     # Plot the data
     if not ax:
         fig, ax = plt.subplots()
-    (latency / 1000).hist(ax=ax).set(xlabel='latency time (ms)', ylabel='frequency')
+    sns.distplot(latency / 1000, ax=ax).set(xlabel='latency time (ms)', ylabel='frequency')
     return ax
 
 
-if __name__ == '__main__':
-
-    # Import data
-    data = pd.read_csv('../Measurements/s02_230218_white_randFreq_ObjectMode.csv')
+@click.command()
+@click.argument('csv_fname', type=click.File('r'))
+@click.argument('fig_fname', type=click.File('wb'))
+def run_latency_analysis(csv_fname, fig_fname):
+    """
+    Takes a csv file generated from the  arduino_serial_read.py experiment and outputs a figure image showing the trial latency.
+    """
+    data = pd.read_csv(csv_fname)
     fig, ax = plt.subplots()
     plot_latency_hist(df=data, win_size=9, threshold=5, ax=ax)
-    fig.savefig('s02_230218_white_randFreq_ObjectMode.png')
+    fig.savefig(fig_fname)
+
+
+if __name__ == '__main__':
+    run_latency_analysis()

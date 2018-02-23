@@ -1,0 +1,7 @@
+'plot_latency_hist:.\\Measurements\\s02_230218_white_randFreq_SegmentMode.csv', (2048, 245)
+'plot_latency_hist', (0, 56)
+'plot_latency_hist:.\\Measurements\\s03_230218_white_randFreq_SegmentMode.csv', (3072, 245)
+'plot_latency_hist:.\\Measurements\\s03_230218_white_randFreq_ObjectMode.csv', (2560, 243)
+'plot_latency_hist:.\\Measurements\\s02_230218_white_highFreq_PrecisionMode.csv', (512, 249)
+'plot_latency_hist:.\\Measurements\\s02_230218_white_randFreq_ObjectMode.csv', (1024, 243)
+'plot_latency_hist:.\\Measurements\\s02_230218_white_randFreq_PrecisionMode.csv', (1536, 249)

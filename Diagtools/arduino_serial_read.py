@@ -22,4 +22,4 @@ with serial.Serial(ARDUINO_PORT, baudrate=BAUDRATE, timeout=2.) as device:
 
 dd = np.array(data).reshape(-1, 5)
 df = pd.DataFrame(data=dd, columns=['Time', "Chan1", "Chan2", 'Trial', 'LED_State'])
-df.to_csv('../Measurements/s02_230218_white_randFreq_ObjectMode.csv', index=False)
+df.to_csv('../Measurements/s03_230218_white_randFreq_SegmentMode.csv', index=False)
