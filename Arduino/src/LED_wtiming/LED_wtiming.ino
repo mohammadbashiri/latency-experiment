@@ -10,7 +10,7 @@ int analogPin_Right = 3;        // Right PhotoDiode connect on anaglog pin3
 bool led_state = 0;
 int trial = 0;
 int counter = 1;
-int delay_count = 1000;
+int delay_count;
 
 struct Packet {
   unsigned long time_m;
@@ -49,6 +49,7 @@ void loop() {
   // switch LEDs and send timing data
 
   delay_count = random(100, 300);
+  Serial.println(delay_count);
   
   if (counter%delay_count==0 && led_state==0){
     set_LEDs(left_LEDs, 3, HIGH);
