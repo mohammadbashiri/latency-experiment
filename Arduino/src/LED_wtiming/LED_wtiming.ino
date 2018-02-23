@@ -10,7 +10,7 @@ int analogPin_Right = 3;        // Right PhotoDiode connect on anaglog pin3
 bool led_state = 0;
 int trial = 0;
 int counter = 1;
-int delay_count;
+int delay_count = 100;
 
 struct Packet {
   unsigned long time_m;
@@ -47,21 +47,21 @@ void set_LEDs(short *array_of_LEDs, short array_size, bool level){
 void loop() {
   
   // switch LEDs and send timing data
-
-  delay_count = random(100, 300);
-  
-  if (counter%delay_count==0 && led_state==0){
-    set_LEDs(left_LEDs, 3, HIGH);
-    set_LEDs(right_LEDs, 3, LOW);
-    led_state = 1;
+  if (counter==delay_count){
     trial++;
-    }
-  else if (counter%delay_count==0 && led_state==1){
-    set_LEDs(left_LEDs, 3, LOW);
-    set_LEDs(right_LEDs, 3, HIGH);
-    led_state = 0;
-    trial++;
-    }
+    counter = 1;
+    delay_count = random(100, 300); // this keeps the minimum interval at 100 - necessary for window!
+    if (led_state){
+      set_LEDs(left_LEDs, 3, LOW);
+      set_LEDs(right_LEDs, 3, HIGH);
+      led_state = 0;
+      }
+    else{
+      set_LEDs(left_LEDs, 3, HIGH);
+      set_LEDs(right_LEDs, 3, LOW);
+      led_state = 1;
+      }
+  }
     
   Packet data = {micros(), analogRead(analogPin_Left)/50, analogRead(analogPin_Right)/50, trial, led_state};
   Serial.write((byte*)&data, 11);
