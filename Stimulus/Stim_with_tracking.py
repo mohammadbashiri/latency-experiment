@@ -30,9 +30,7 @@ def on_draw():
     with rc.default_shader:
         plane.draw()
 
-
     # fr.draw()
-    # print(plane.position, LED.position)
 
 def update(dt):
     plane.position.x = -LED.position.x * 1.65 - .388
