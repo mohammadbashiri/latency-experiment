@@ -1,8 +1,6 @@
-from struct import pack, unpack
+from struct import unpack
 import serial
 import numpy as np
-import matplotlib.pyplot as plt
-import time
 import pandas as pd
 
 # Set the port value
@@ -24,22 +22,4 @@ with serial.Serial(ARDUINO_PORT, baudrate=BAUDRATE, timeout=2.) as device:
 
 dd = np.array(data).reshape(-1, 5)
 df = pd.DataFrame(data=dd, columns=['Time', "Chan1", "Chan2", 'Trial', 'LED_State'])
-df.to_csv('../Measurements/s02_210218_white.csv')
-
-# plt.scatter(dd[:, 0] / 1000, dd[:, 1], .5)
-# df['Chan1'] = df.Chan1.rolling(8, center=True).max()
-# df['Chan2'] = df.Chan2.rolling(8, center=True).max()
-
-# df['Chan1'][df['Chan1'] > .5] = 5
-# df['Chan2'][df['Chan2'] > .5] = 5
-# df.to_csv('../Measurements/s01_210218.csv')
-
-# df[['Chan1', 'Chan2', 'LED_State']][:2000].plot()
-
-# df['TrialTime'] = 0
-# for trial, dd in df.groupby('Trial'):
-#     df.loc[df.Trial == trial, 'TrialTime'] = (dd.Time - dd.Time.min())
-#
-# df.groupby('LED_State').plot(x='TrialTime', y=["Chan1", "Chan2", 'LED_State'])
-# plt.plot(dd[:, 0] / 1000, dd[:, 1:])
-# plt.show()
+df.to_csv('../Measurements/s01_230218_white_randFreq_SegmentMode.csv', index=False)
