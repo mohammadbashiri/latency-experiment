@@ -48,7 +48,7 @@ void loop() {
   
   // switch LEDs and send timing data
 
-  delay_count = random(100, 1000);
+  delay_count = random(100, 300);
   
   if (counter%delay_count==0 && led_state==0){
     set_LEDs(left_LEDs, 3, HIGH);
