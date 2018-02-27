@@ -31,7 +31,7 @@ def plot_latency_hist(df, win_size=9, threshold=5, ax=None):
     # Plot the data
     if not ax:
         fig, ax = plt.subplots()
-    sns.distplot(latency / 1000, ax=ax).set(xlabel='latency time (ms)', ylabel='frequency')
+    sns.distplot(latency / 1000, ax=ax).set(xlabel='latency time (ms)', ylabel='frequency', xlim=[0, 60])
     return ax
 
 
