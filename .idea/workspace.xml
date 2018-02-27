@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b076626-2340-4257-a3db-acd4153f53e0" name="Default" comment="changed filename of script">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s03_230218_white_randFreq_EngineV4_ObjectMode_CamFR240_MaxRayLen5_MaxObj3_MaxCalcTime0_RayRanking0_TrackingAlgorithm4_LatComp100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s03_230218_white_randFreq_EngineV4_ObjectMode_CamFR240_MaxRayLen5_MaxObj3_MaxCalcTime0_RayRanking0_TrackingAlgorithm4_LatComp200.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s03_230218_white_randFreq_EngineV4_ObjectMode_CamFR240_MaxRayLen5_MaxObj3_MaxCalcTime0_RayRanking0_TrackingAlgorithm4_RBCalcTime5_AcqDelay0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s03_230218_white_randFreq_EngineV4_ObjectMode_CamFR240_MaxRayLen5_MaxObj3_MaxCalcTime0_RayRanking0_TrackingAlgorithm4_LatComp100.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s03_230218_white_randFreq_EngineV4_ObjectMode_CamFR240_MaxRayLen5_MaxObj3_MaxCalcTime0_RayRanking0_TrackingAlgorithm4_LatComp200.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s03_230218_white_randFreq_EngineV4_ObjectMode_CamFR240_MaxRayLen5_MaxObj3_MaxCalcTime0_RayRanking0_TrackingAlgorithm4_RBCalcTime5_AcqDelay0.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.doit.db.dat" afterPath="$PROJECT_DIR$/.doit.db.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.doit.db.bak" afterPath="$PROJECT_DIR$/.doit.db.bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.doit.db.dir" afterPath="$PROJECT_DIR$/.doit.db.dir" />
+    <list default="true" id="2b076626-2340-4257-a3db-acd4153f53e0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diagtools/arduino_serial_read.py" afterPath="$PROJECT_DIR$/Diagtools/arduino_serial_read.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/Diagtools/arduino_serial_read.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.5390244">
-              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -665,15 +655,22 @@
       <option name="project" value="LOCAL" />
       <updated>1519406846950</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="new data">
+      <created>1519750565681</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1519750565681</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1180" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11374407" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2696156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20263901" sideWeight="0.2838336" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925683" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -683,7 +680,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2554194" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -725,11 +721,11 @@
     <MESSAGE value="added random stimulus, and recorded some new data" />
     <MESSAGE value="cleaned up" />
     <MESSAGE value="randomization fixed" />
-    <MESSAGE value="new data" />
     <MESSAGE value="add analysis script&#10;" />
     <MESSAGE value="removed stupid directories by jupyter and pycharm guys.  C'mon, man!" />
     <MESSAGE value="changed filename of script" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed filename of script" />
+    <MESSAGE value="new data" />
+    <option name="LAST_COMMIT_MESSAGE" value="new data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1108,7 +1104,7 @@
     <entry file="file://$PROJECT_DIR$/Diagtools/arduino_serial_read.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5390244">
-          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
           <folding />
         </state>
       </provider>
