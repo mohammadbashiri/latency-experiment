@@ -22,6 +22,8 @@ with serial.Serial(ARDUINO_PORT, baudrate=BAUDRATE, timeout=2.) as device:
 
 dd = np.array(data).reshape(-1, 5)
 df = pd.DataFrame(data=dd, columns=['Time', "Chan1", "Chan2", 'Trial', 'LED_State'])
-df.to_csv('../Measurements/s03_230218_white_randFreq_EngineV4_ObjectMode_CamFR240_MaxRayLen5_MaxObj3_MaxCalcTime0_RayRanking0_TrackingAlgorithm4_LatComp200.csv', index=False)
+
+filename = 's16_280218'
+df.to_csv('../Measurements/' + filename + '.csv', index=False)
 
 # RB stands for Rigid Body. So these are the settings that are under Rigid Body in Edit Layout
