@@ -2,43 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b076626-2340-4257-a3db-acd4153f53e0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s17_280218.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s18_280218.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s19_280218.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s20_280218.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s21_280218.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s22_280218.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s23_280218.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s23_280218_nn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s24_280218_nn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s25_280218_nn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s26_280218.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s27_280218.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s28_280218.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s29_280218.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s30_280218.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s21_280218.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s17_280218.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s18_280218.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s19_280218.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s20_280218.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s22_280218.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s23_280218.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s23_280218_nn.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s24_280218_nn.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s25_280218_nn.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s26_280218.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s27_280218.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s28_280218.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s29_280218.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s30_280218.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s31_060318.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s32_060318.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s33_060318.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s34_060318.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s35_060318.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s36_060318.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s37_060318.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s31_060318.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s32_060318.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s33_060318.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s34_060318.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s35_060318.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s36_060318.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s37_060318.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.doit.db.dat" afterPath="$PROJECT_DIR$/.doit.db.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Log/Tracking_Parameters - prioritized.ods" afterPath="$PROJECT_DIR$/Log/Tracking_Parameters - prioritized.ods" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.doit.db.bak" afterPath="$PROJECT_DIR$/.doit.db.bak" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.doit.db.dir" afterPath="$PROJECT_DIR$/.doit.db.dir" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diagtools/arduino_serial_read.py" afterPath="$PROJECT_DIR$/Diagtools/arduino_serial_read.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Stimulus/Stim_with_tracking.py" afterPath="$PROJECT_DIR$/Stimulus/Stim_with_tracking.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,8 +53,8 @@
       <file leaf-file-name="arduino_serial_read.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Diagtools/arduino_serial_read.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47624847">
-              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.5783718">
+              <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -191,6 +174,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches">
+        <subPane />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -233,20 +219,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Log" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VRLatency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VRLatency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Figures" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -268,9 +240,6 @@
           </PATH>
         </subPane>
         <subPane subId="Project Files" />
-      </pane>
-      <pane id="Scratches">
-        <subPane />
       </pane>
     </panes>
   </component>
@@ -717,7 +686,13 @@
       <option name="project" value="LOCAL" />
       <updated>1519828017257</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="New data acquired, with having the display frame rate and tracker as not multiples&#10;">
+      <created>1519841168783</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1519841168783</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -726,16 +701,16 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1943128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20169652" sideWeight="0.34228542" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20131703" sideWeight="0.36071616" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925683" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23091424" sideWeight="0.78041077" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23047978" sideWeight="0.7614534" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20169652" sideWeight="0.6577146" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20131703" sideWeight="0.63928384" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2554194" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -756,7 +731,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="indentation fix!" />
     <MESSAGE value="created stimulus class" />
     <MESSAGE value="working on arduino sampling rate. It must be at least 10kHz to give us a reasonable plot." />
     <MESSAGE value="no changes" />
@@ -781,7 +755,8 @@
     <MESSAGE value="changed filename of script" />
     <MESSAGE value="new data" />
     <MESSAGE value="Motive properties prioritized.&#10;New data acquired" />
-    <option name="LAST_COMMIT_MESSAGE" value="Motive properties prioritized.&#10;New data acquired" />
+    <MESSAGE value="New data acquired, with having the display frame rate and tracker as not multiples&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="New data acquired, with having the display frame rate and tracker as not multiples&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1159,8 +1134,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Diagtools/arduino_serial_read.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47624847">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.5783718">
+          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
           <folding />
         </state>
       </provider>
