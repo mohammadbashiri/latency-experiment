@@ -5,7 +5,7 @@ import click
 import seaborn as sns
 
 
-def plot_latency_hist(df, win_size=9, threshold=5, ax=None):
+def plot_latency_hist(df, win_size=9, threshold=5, ax=None, return_data=False):
     """
     Makes a latency plot from a dataframe made from the arduino_serial_read.py experiment.
 
@@ -27,12 +27,15 @@ def plot_latency_hist(df, win_size=9, threshold=5, ax=None):
     data['TrialTime'] = data.groupby('Trial').Time.apply(lambda x: x - x.min())  # Trial time detection
     resp_on = data[(data['Frame1On'] & (data['LED_State'] == 1)) | (data['Frame2On'] & (data['LED_State'] == 0))]
     latency = resp_on.groupby('Trial').TrialTime.min()
-
-    # Plot the data
-    if not ax:
-        fig, ax = plt.subplots()
-    sns.distplot(latency / 1000, ax=ax).set(xlabel='latency time (ms)', ylabel='frequency', xlim=[0, 60])
-    return ax
+    
+    if return_data:
+        return latency / 1000
+    else:
+        # Plot the data
+        if not ax:
+            fig, ax = plt.subplots()
+        sns.distplot(latency / 1000, ax=ax).set(xlabel='latency time (ms)', ylabel='frequency', xlim=[0, 60])
+        return ax
 
 
 @click.command()
