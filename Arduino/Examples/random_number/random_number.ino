@@ -9,5 +9,5 @@ void loop() {
   randNumber = random(100, 300);
   Serial.println(randNumber);
 
-  delay(100);
+  delay(10);
 }

@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b076626-2340-4257-a3db-acd4153f53e0" name="Default" comment="">
+    <list default="true" id="2b076626-2340-4257-a3db-acd4153f53e0" name="Default" comment="changed filename of script">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arduino/src/LED_wtiming/LED_wtiming.ino" afterPath="$PROJECT_DIR$/Arduino/src/LED_wtiming/LED_wtiming.ino" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diagtools/arduino_serial_read.py" afterPath="$PROJECT_DIR$/Diagtools/arduino_serial_read.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Measurements/s02_230218_white_randFreq_ObjectMode.csv" afterPath="$PROJECT_DIR$/Measurements/s02_230218_white_randFreq_ObjectMode.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Measurements/s02_230218_white_randFreq_SegmentMode.csv" afterPath="$PROJECT_DIR$/Measurements/s02_230218_white_randFreq_SegmentMode.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Text_Files/plot_latency_hist.py" afterPath="$PROJECT_DIR$/Text_Files/plot_latency_hist.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,11 +32,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="arduino_serial_read.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="arduino_serial_read.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Diagtools/arduino_serial_read.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65499127">
-              <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plot_latency_hist.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Text_Files/plot_latency_hist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.26984128">
+              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -90,6 +107,9 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Stimulus/Stim_with_tracking.py" />
         <option value="$PROJECT_DIR$/Diagtools/arduino_serial_read.py" />
+        <option value="$PROJECT_DIR$/Text_Files/Latency Analysis.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Text_Files/plot_latency_hist.py" />
       </list>
     </option>
   </component>
@@ -152,6 +172,62 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Text_Files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VRLatency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VRLatency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Stimulus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VRLatency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VRLatency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Reports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VRLatency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VRLatency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Others" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VRLatency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VRLatency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Measurements" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -200,41 +276,7 @@
       <recent name="D:\sirotalab\Mohammad Folder\Latency Measurement\VRLatency\Diagtools" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.arduino_serial_read">
-    <configuration default="false" name="plotIt3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Diagtools" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="VRLatency" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Diagtools/plotIt3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="threading_mock" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Diagtools" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="VRLatency" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Diagtools/threading_mock.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.plot_latency_hist">
     <configuration default="false" name="serial_draw_thread" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -282,6 +324,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="VRLatency" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Diagtools/arduino_serial_read.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Latency Analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Text_Files" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="VRLatency" />
+      <option name="SCRIPT_NAME" value="D:\sirotalab\Mohammad Folder\Latency Measurement\VRLatency\Text_Files\plot_latency_hist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="plot_latency_hist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Text_Files" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="VRLatency" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Text_Files/plot_latency_hist.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -427,19 +503,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="Python.plotIt3" />
-      <item index="2" class="java.lang.String" itemvalue="Python.threading_mock" />
-      <item index="3" class="java.lang.String" itemvalue="Python.serial_draw_thread" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Stim_with_tracking" />
-      <item index="5" class="java.lang.String" itemvalue="Python.arduino_serial_read" />
+      <item index="1" class="java.lang.String" itemvalue="Python.serial_draw_thread" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Stim_with_tracking" />
+      <item index="3" class="java.lang.String" itemvalue="Python.arduino_serial_read" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Latency Analysis" />
+      <item index="5" class="java.lang.String" itemvalue="Python.plot_latency_hist" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.arduino_serial_read" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Stim_with_tracking" />
-        <item index="2" class="java.lang.String" itemvalue="Python.serial_draw_thread" />
-        <item index="3" class="java.lang.String" itemvalue="Python.threading_mock" />
-        <item index="4" class="java.lang.String" itemvalue="Python.plotIt3" />
+        <item index="0" class="java.lang.String" itemvalue="Python.plot_latency_hist" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Latency Analysis" />
+        <item index="2" class="java.lang.String" itemvalue="Python.arduino_serial_read" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Stim_with_tracking" />
+        <item index="4" class="java.lang.String" itemvalue="Python.serial_draw_thread" />
       </list>
     </recent_temporary>
   </component>
@@ -580,7 +656,43 @@
       <option name="project" value="LOCAL" />
       <updated>1519394524966</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="randomization fixed">
+      <created>1519405781225</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1519405781225</updated>
+    </task>
+    <task id="LOCAL-00023" summary="new data">
+      <created>1519405812161</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1519405812161</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add analysis script&#10;">
+      <created>1519406653640</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1519406653640</updated>
+    </task>
+    <task id="LOCAL-00025" summary="add analysis script&#10;">
+      <created>1519406695143</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1519406695143</updated>
+    </task>
+    <task id="LOCAL-00026" summary="removed stupid directories by jupyter and pycharm guys.  C'mon, man!">
+      <created>1519406797201</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1519406797201</updated>
+    </task>
+    <task id="LOCAL-00027" summary="changed filename of script">
+      <created>1519406846950</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1519406846950</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -589,16 +701,16 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17588204" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43838194" sideWeight="0.53554505" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4410933" sideWeight="0.54765666" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925683" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43838194" sideWeight="0.46445498" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4410933" sideWeight="0.45234334" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33301976" sideWeight="0.46024224" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21771914" sideWeight="0.45023698" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2554194" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -633,14 +745,18 @@
     <MESSAGE value="playing with the buffer number" />
     <MESSAGE value="latency plot is displayed with timing information about the LED switch.&#10;" />
     <MESSAGE value="cleaning up" />
-    <MESSAGE value="new data" />
     <MESSAGE value="dropped the index from DataFrame" />
     <MESSAGE value="cleaned up&#10;" />
     <MESSAGE value="updated readme" />
     <MESSAGE value="cleaned up arduno folder" />
     <MESSAGE value="added random stimulus, and recorded some new data" />
     <MESSAGE value="cleaned up" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleaned up" />
+    <MESSAGE value="randomization fixed" />
+    <MESSAGE value="new data" />
+    <MESSAGE value="add analysis script&#10;" />
+    <MESSAGE value="removed stupid directories by jupyter and pycharm guys.  C'mon, man!" />
+    <MESSAGE value="changed filename of script" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed filename of script" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -968,13 +1084,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Measurements/s01_230218_white_LowFreq_ObjectMode.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.668421">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Stimulus/Stim_with_tracking.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -985,8 +1094,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Diagtools/arduino_serial_read.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65499127">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Text_Files/plot_latency_hist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26984128">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding />
         </state>
       </provider>
