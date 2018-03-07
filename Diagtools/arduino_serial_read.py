@@ -8,7 +8,7 @@ ARDUINO_PORT = 'COM9'
 BAUDRATE = 250000
 
 POINTS = 2000
-TOTAL_POINTS = 60000
+TOTAL_POINTS = 300000
 data = []
 print('Connecting...')
 
@@ -22,4 +22,8 @@ with serial.Serial(ARDUINO_PORT, baudrate=BAUDRATE, timeout=2.) as device:
 
 dd = np.array(data).reshape(-1, 5)
 df = pd.DataFrame(data=dd, columns=['Time', "Chan1", "Chan2", 'Trial', 'LED_State'])
-df.to_csv('../Measurements/s03_230218_white_randFreq_SegmentMode.csv', index=False)
+
+filename = 's37_060318'
+df.to_csv('../Measurements/' + filename + '.csv', index=False)
+
+# RB stands for Rigid Body. So these are the settings that are under Rigid Body in Edit Layout

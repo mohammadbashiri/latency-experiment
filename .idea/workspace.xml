@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b076626-2340-4257-a3db-acd4153f53e0" name="Default" comment="changed filename of script">
+    <list default="true" id="2b076626-2340-4257-a3db-acd4153f53e0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s31_060318.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s32_060318.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s33_060318.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s34_060318.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s35_060318.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s36_060318.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s37_060318.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s31_060318.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s32_060318.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s33_060318.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s34_060318.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s35_060318.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s36_060318.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s37_060318.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.doit.db.dat" afterPath="$PROJECT_DIR$/.doit.db.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Log/Tracking_Parameters - prioritized.ods" afterPath="$PROJECT_DIR$/Log/Tracking_Parameters - prioritized.ods" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.doit.db.bak" afterPath="$PROJECT_DIR$/.doit.db.bak" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.doit.db.dir" afterPath="$PROJECT_DIR$/.doit.db.dir" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Text_Files/plot_latency_hist.py" afterPath="$PROJECT_DIR$/Text_Files/plot_latency_hist.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diagtools/arduino_serial_read.py" afterPath="$PROJECT_DIR$/Diagtools/arduino_serial_read.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,27 +44,37 @@
         <entry file="file://$PROJECT_DIR$/Stimulus/Stim_with_tracking.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="arduino_serial_read.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="arduino_serial_read.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Diagtools/arduino_serial_read.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.5783718">
+              <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plot_latency_hist.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Text_Files/plot_latency_hist.py">
+      <file leaf-file-name="plot_latency_hist.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pipeline/plot_latency_hist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26984128">
-              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dodo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dodo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -105,11 +133,13 @@
         <option value="$PROJECT_DIR$/Diagtools/arduino_serial_rw_plot.py" />
         <option value="$PROJECT_DIR$/Diagtools/plotIt3.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/Stimulus/Stim_with_tracking.py" />
-        <option value="$PROJECT_DIR$/Diagtools/arduino_serial_read.py" />
         <option value="$PROJECT_DIR$/Text_Files/Latency Analysis.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Text_Files/plot_latency_hist.py" />
+        <option value="$PROJECT_DIR$/dodo.py" />
+        <option value="$PROJECT_DIR$/Pipeline/plot_latency_hist.py" />
+        <option value="$PROJECT_DIR$/Stimulus/Stim_with_tracking.py" />
+        <option value="$PROJECT_DIR$/Diagtools/arduino_serial_read.py" />
       </list>
     </option>
   </component>
@@ -144,6 +174,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches">
+        <subPane />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -172,80 +205,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Text_Files" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VRLatency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VRLatency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stimulus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VRLatency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VRLatency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Reports" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VRLatency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VRLatency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Others" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VRLatency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VRLatency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Measurements" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches">
-        <subPane />
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Changed Files">
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VRLatency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VRLatency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Figures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Changed Files" />
         <subPane subId="Default">
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
@@ -258,11 +239,12 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
+        <subPane subId="Project Files" />
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Miniconda3/envs/VRLatency/python.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../repositories/natnetclient" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -276,7 +258,7 @@
       <recent name="D:\sirotalab\Mohammad Folder\Latency Measurement\VRLatency\Diagtools" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.plot_latency_hist">
+  <component name="RunManager" selected="Python.arduino_serial_read">
     <configuration default="false" name="serial_draw_thread" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -511,10 +493,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.plot_latency_hist" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Latency Analysis" />
-        <item index="2" class="java.lang.String" itemvalue="Python.arduino_serial_read" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Stim_with_tracking" />
+        <item index="0" class="java.lang.String" itemvalue="Python.arduino_serial_read" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Stim_with_tracking" />
+        <item index="2" class="java.lang.String" itemvalue="Python.plot_latency_hist" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Latency Analysis" />
         <item index="4" class="java.lang.String" itemvalue="Python.serial_draw_thread" />
       </list>
     </recent_temporary>
@@ -692,30 +674,48 @@
       <option name="project" value="LOCAL" />
       <updated>1519406846950</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="new data">
+      <created>1519750565681</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1519750565681</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Motive properties prioritized.&#10;New data acquired">
+      <created>1519828017257</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1519828017257</updated>
+    </task>
+    <task id="LOCAL-00030" summary="New data acquired, with having the display frame rate and tracker as not multiples&#10;">
+      <created>1519841168783</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1519841168783</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1180" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17588204" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1943128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4410933" sideWeight="0.54765666" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20131703" sideWeight="0.36071616" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925683" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4410933" sideWeight="0.45234334" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23047978" sideWeight="0.7614534" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21771914" sideWeight="0.45023698" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20131703" sideWeight="0.63928384" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2554194" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987747" sideWeight="0.49605057" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925683" sideWeight="0.49394417" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -731,8 +731,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="serial works with data_buffer (load up data, and update screen)" />
-    <MESSAGE value="indentation fix!" />
     <MESSAGE value="created stimulus class" />
     <MESSAGE value="working on arduino sampling rate. It must be at least 10kHz to give us a reasonable plot." />
     <MESSAGE value="no changes" />
@@ -752,11 +750,13 @@
     <MESSAGE value="added random stimulus, and recorded some new data" />
     <MESSAGE value="cleaned up" />
     <MESSAGE value="randomization fixed" />
-    <MESSAGE value="new data" />
     <MESSAGE value="add analysis script&#10;" />
     <MESSAGE value="removed stupid directories by jupyter and pycharm guys.  C'mon, man!" />
     <MESSAGE value="changed filename of script" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed filename of script" />
+    <MESSAGE value="new data" />
+    <MESSAGE value="Motive properties prioritized.&#10;New data acquired" />
+    <MESSAGE value="New data acquired, with having the display frame rate and tracker as not multiples&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="New data acquired, with having the display frame rate and tracker as not multiples&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -765,6 +765,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Stimulus/Stim_with_tracking.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1084,18 +1100,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stimulus/Stim_with_tracking.py">
+    <entry file="file://$PROJECT_DIR$/Pipeline/plot_latency_hist.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Diagtools/arduino_serial_read.py">
+    <entry file="file://$PROJECT_DIR$/dodo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1108,10 +1124,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Text_Files/plot_latency_hist.py">
+    <entry file="file://$PROJECT_DIR$/Stimulus/Stim_with_tracking.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26984128">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Diagtools/arduino_serial_read.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5783718">
+          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
           <folding />
         </state>
       </provider>
