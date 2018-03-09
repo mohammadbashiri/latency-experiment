@@ -1,12 +1,9 @@
 import pyglet
-pyglet.options['debug_gl'] = False
-pyglet.options['debug_gl_trace'] = False
+import numpy as np
 import ratcave as rc
-import natnetclient as natnet
+from time import sleep
+from itertools import cycle
 
-# initiate a natnet object
-client = natnet.NatClient()  # read_rate=1000
-LED = client.rigid_bodies['LED']
 
 # create a window and project it on the display of your choice
 platform = pyglet.window.get_platform()
@@ -21,7 +18,6 @@ plane.point_size = 10.
 plane.position.xyz = 0, 0, -3
 plane.rotation.x = 0
 plane.scale.xyz = .2
-# plane.uniforms['diffuse'] = [0., 0., 0.]
 
 @mywin.event
 def on_draw():
@@ -29,11 +25,14 @@ def on_draw():
     with rc.default_shader:
         plane.draw()
 
-    # fr.draw()
+        # fr.draw()
 
-def update(dt):                                    # for 1024x768: 2.9 - 1.2
-    plane.position.x = -LED.position.x * 2.9 - 1.2 # for 1920x1080: 1.65 - .388
-    plane.position.y = LED.position.z
+pos = cycle([0, .09])
+def update(dt):
+
+    sleep_time = np.random.random() / 5 + .05  # random numbers between 50 and 250 ms
+    sleep(sleep_time)
+    plane.position.x = next(pos)
 
 pyglet.clock.schedule(update)
 
