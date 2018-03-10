@@ -9,6 +9,7 @@ import serial
 import numpy as np
 import pandas as pd
 import ratcave as rc
+from time import sleep
 from struct import unpack
 from itertools import cycle
 
@@ -27,10 +28,9 @@ plane.rotation.x = 0
 plane.scale.xyz = .2
 
 # initialize data for receording
-trial = 0.5
-no_of_trials = 200
-# POINTS = 2000
-# TOTAL_POINTS = 10000  # 300000
+trial = 1
+POINTS = 2000
+TOTAL_POINTS = 10000  # 300000
 data = []
 
 # define (and start) the serial connection
@@ -39,6 +39,17 @@ BAUDRATE = 250000
 print('Connecting...')
 device = serial.Serial(ARDUINO_PORT, baudrate=BAUDRATE, timeout=2)
 print("Emptying buffer")
+device.readline()
+
+# ping test
+dd = [78, 0]
+while chr(dd[0]) != 'P':
+    device.write(b'P')
+    dd = unpack('<HI', device.read(6))
+    print(chr(dd[0]))
+
+print('init time from arduino is', dd[1]/1000, 'ms')
+
 
 @mywin.event
 def on_draw():
@@ -47,33 +58,25 @@ def on_draw():
         plane.draw()
         # fr.draw()
 
-pos = cycle([0, .09])
-ch = cycle([b'A', b'B'])
 
+pos = cycle([0, .09])
+LED_state = cycle([0, 1])
 def update(dt):
 
-    global trial, no_of_trials, data
+    global POINTS, TOTAL_POINTS, data, trial
 
-    next_ch = next(ch)
-    next_pos = next(pos)
+    sleep_time = np.random.random() / 5 + .05  # random numbers between 50 and 250 ms
+    sleep(sleep_time)
+    plane.position.x = next(pos)
+    trial += 1
 
-    for i in range(np.random.randint(50, 250)):
+    # TODO: this must be added in a thread - making it very slow
+    if len(data) < TOTAL_POINTS * 11:
+        dd = unpack('<' + 'I2H' * POINTS, device.read(8 * POINTS))
+        data.extend(dd)
+        print(dd)
 
-        device.write(next_ch)
-        plane.position.x = next_pos
-
-        # dd = device.read_all()
-        # if (len(dd) == 11):
-        # print(i, trial, dd) #unpack('<I3H?', dd), len(dd))
-        # data.extend(unpack('<I3H?', dd))
-
-    dd = device.read_all()
-    print(trial, len(dd), dd)
-    trial += .5
-
-    if trial > no_of_trials:
-        # data.extend(unpack('<' + 'I3H?' * 2 * no_of_trials, device.read(11 * 2 * no_of_trials)))
-        print('size of data for', trial - .5, 'trials is', len(data))
+    else:
         pyglet.app.exit()
 
         # dd = np.array(data).reshape(-1, 5)
@@ -81,6 +84,7 @@ def update(dt):
         #
         # filename = 's01_090318'
         # df.to_csv('../Measurements/' + filename + '.csv', index=False)
+
 
 pyglet.clock.schedule(update)
 
