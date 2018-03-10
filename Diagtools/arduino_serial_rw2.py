@@ -28,10 +28,9 @@ plane.rotation.x = 0
 plane.scale.xyz = .2
 
 # initialize data for receording
-trial = 0.5
-no_of_trials = 200
-# POINTS = 2000
-# TOTAL_POINTS = 10000  # 300000
+trial = 1
+POINTS = 2000
+TOTAL_POINTS = 10000  # 300000
 data = []
 
 # define (and start) the serial connection
@@ -61,26 +60,23 @@ def on_draw():
 
 
 pos = cycle([0, .09])
+LED_state = cycle([0, 1])
 def update(dt):
 
-
-    global trial, no_of_trials, data
+    global POINTS, TOTAL_POINTS, data, trial
 
     sleep_time = np.random.random() / 5 + .05  # random numbers between 50 and 250 ms
     sleep(sleep_time)
     plane.position.x = next(pos)
+    trial += 1
 
-    dd = device.read_all()
-    if (len(dd) == 11):
-        print(trial, unpack('<I3H?', dd), len(dd))
-        data.extend(unpack('<I3H?', dd))
-        trial += 1
-    # while len(data) < TOTAL_POINTS * 11:
-    #     data.extend(unpack('<' + 'I3H?' * POINTS, device.read(11 * POINTS)))
+    # TODO: this must be added in a thread - making it very slow
+    if len(data) < TOTAL_POINTS * 11:
+        dd = unpack('<' + 'I2H' * POINTS, device.read(8 * POINTS))
+        data.extend(dd)
+        print(dd)
 
-    if trial > no_of_trials:
-        # data.extend(unpack('<' + 'I3H?' * 2 * no_of_trials, device.read(11 * 2 * no_of_trials)))
-        print('size of data for', trial - .5, 'trials is', len(data))
+    else:
         pyglet.app.exit()
 
         # dd = np.array(data).reshape(-1, 5)
