@@ -9,6 +9,7 @@ import serial
 import numpy as np
 import pandas as pd
 import ratcave as rc
+from time import sleep
 from struct import unpack
 from itertools import cycle
 
@@ -39,6 +40,17 @@ BAUDRATE = 250000
 print('Connecting...')
 device = serial.Serial(ARDUINO_PORT, baudrate=BAUDRATE, timeout=2)
 print("Emptying buffer")
+device.readline()
+
+# ping test
+dd = [78, 0]
+while chr(dd[0]) != 'P':
+    device.write(b'P')
+    dd = unpack('<HI', device.read(6))
+    print(chr(dd[0]))
+
+print('init time from arduino is', dd[1]/1000, 'ms')
+
 
 @mywin.event
 def on_draw():
@@ -47,29 +59,24 @@ def on_draw():
         plane.draw()
         # fr.draw()
 
-pos = cycle([0, .09])
-ch = cycle([b'A', b'B'])
 
+pos = cycle([0, .09])
 def update(dt):
+
 
     global trial, no_of_trials, data
 
-    next_ch = next(ch)
-    next_pos = next(pos)
-
-    for i in range(np.random.randint(50, 250)):
-
-        device.write(next_ch)
-        plane.position.x = next_pos
-
-        # dd = device.read_all()
-        # if (len(dd) == 11):
-        # print(i, trial, dd) #unpack('<I3H?', dd), len(dd))
-        # data.extend(unpack('<I3H?', dd))
+    sleep_time = np.random.random() / 5 + .05  # random numbers between 50 and 250 ms
+    sleep(sleep_time)
+    plane.position.x = next(pos)
 
     dd = device.read_all()
-    print(trial, len(dd), dd)
-    trial += .5
+    if (len(dd) == 11):
+        print(trial, unpack('<I3H?', dd), len(dd))
+        data.extend(unpack('<I3H?', dd))
+        trial += 1
+    # while len(data) < TOTAL_POINTS * 11:
+    #     data.extend(unpack('<' + 'I3H?' * POINTS, device.read(11 * POINTS)))
 
     if trial > no_of_trials:
         # data.extend(unpack('<' + 'I3H?' * 2 * no_of_trials, device.read(11 * 2 * no_of_trials)))
@@ -81,6 +88,7 @@ def update(dt):
         #
         # filename = 's01_090318'
         # df.to_csv('../Measurements/' + filename + '.csv', index=False)
+
 
 pyglet.clock.schedule(update)
 
