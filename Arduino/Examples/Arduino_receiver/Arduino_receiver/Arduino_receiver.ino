@@ -8,8 +8,8 @@ void setup() {
 void loop() {
   if (Serial.available() > 0) {
     received_data = Serial.read();
-    Serial.write("Confirmation of receiving data: ");
-    Serial.write(received_data);
-    Serial.write('\n');
+     Serial.write("Confirmation of receiving data: ");
+     Serial.write(received_data);
+     Serial.write('\n');
   }
 }

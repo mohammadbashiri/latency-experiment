@@ -8,7 +8,6 @@ import pyglet
 import serial
 import numpy as np
 import ratcave as rc
-from time import sleep
 from itertools import cycle
 
 # create a window and project it on the display of your choice
@@ -29,25 +28,39 @@ plane.scale.xyz = .2
 ARDUINO_PORT = 'COM9'
 BAUDRATE = 250000
 print('Connecting...')
-device = serial.Serial(ARDUINO_PORT, baudrate=BAUDRATE, timeout=1.)
+device = serial.Serial(ARDUINO_PORT, baudrate=BAUDRATE, timeout=2.)
 print("Emptying buffer")
 device.readline()
+
+trial = 0
+last_trial = trial
 
 @mywin.event
 def on_draw():
     mywin.clear()
     with rc.default_shader:
         plane.draw()
-        # fr.draw()
+        global last_trial
+        if last_trial != trial:
+            last_trial = trial
+            device.write(b'S')
+    fr.draw()
 
-pos = cycle([0, .09])
-ch = cycle([b'A', b'B'])
+
+def start_next_trial(dt):
+    global trial
+    trial += 1
+    plane.visible = True
+    pyglet.clock.schedule_once(end_trial, .05)
+pyglet.clock.schedule_once(start_next_trial, 0)
+
+def end_trial(dt):
+    plane.visible = False
+    print(device.read_all())
+    pyglet.clock.schedule_once(start_next_trial, np.random.random() / 5 + .05)
+
 def update(dt):
-    sleep_time = np.random.random() / 5 + .05  # random numbers between 50 and 250 ms
-    sleep(sleep_time)
-    device.write(next(ch))
-    plane.position.x = next(pos)
-
+    pass
 pyglet.clock.schedule(update)
 
 pyglet.app.run()
