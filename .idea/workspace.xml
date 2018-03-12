@@ -2,27 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b076626-2340-4257-a3db-acd4153f53e0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/disp_latency/s01_120318.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/disp_latency/s02_120318.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/disp_latency/s03_120318.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/disp_latency/s04_120318.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/disp_latency/s05_120318.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/disp_latency/s01_120318.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/disp_latency/s02_120318.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/disp_latency/s03_120318.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/disp_latency/s04_120318.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/disp_latency/s05_120318.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Others/Python serial/arduino_serial_rw_example2.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Measurements/s01_090318.csv" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.doit.db.dat" afterPath="$PROJECT_DIR$/.doit.db.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.doit.db.bak" afterPath="$PROJECT_DIR$/.doit.db.bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.doit.db.dir" afterPath="$PROJECT_DIR$/.doit.db.dir" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Figures/s01_280218fitted_.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Figures/s02_280218fitted_.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Figures/s03_280218fitted_.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Figures/s05_280218fitted_.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Figures/s06_280218fitted_.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Figures/s07_280218fitted_.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Figures/s08_280218fitted_.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Figures/s09_280218fitted_.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Figures/s10_280218fitted_.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Measurements/s23_280218_nn.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Measurements/s24_280218_nn.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Measurements/s25_280218_nn.csv" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arduino/Examples/Arduino_receiver/Arduino_receiver/Arduino_receiver.ino" afterPath="$PROJECT_DIR$/Arduino/Examples/Arduino_receiver/Arduino_receiver/Arduino_receiver.ino" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diagtools/arduino_serial_rw2.py" afterPath="$PROJECT_DIR$/Diagtools/arduino_serial_rw2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Others/Python serial/Stim_no_tracking_example1.py" afterPath="$PROJECT_DIR$/Others/Python serial/Stim_no_tracking_example1.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pipeline/plot_latency_hist.py" afterPath="$PROJECT_DIR$/Pipeline/plot_latency_hist.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dodo.py" afterPath="$PROJECT_DIR$/dodo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diagtools/arduino_serial_rw.py" afterPath="$PROJECT_DIR$/Diagtools/arduino_serial_rw.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,11 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="arduino_serial_rw2.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Diagtools/arduino_serial_rw2.py">
+      <file leaf-file-name="arduino_serial_rw.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Diagtools/arduino_serial_rw.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.547561">
-              <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.5141463">
+              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -55,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/Diagtools/arduino_serial_read.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+              <caret line="28" column="73" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -123,10 +116,10 @@
         <option value="$PROJECT_DIR$/Stimulus/Stim_with_tracking.py" />
         <option value="$PROJECT_DIR$/Stimulus/Stim_no_tracking.py" />
         <option value="$PROJECT_DIR$/Others/Python serial/arduino_serial_rw_example1.py" />
-        <option value="$PROJECT_DIR$/Diagtools/arduino_serial_rw.py" />
         <option value="$PROJECT_DIR$/Others/Python serial/arduino_serial_rw_example2.py" />
         <option value="$PROJECT_DIR$/Others/Python serial/Stim_no_tracking_example1.py" />
         <option value="$PROJECT_DIR$/Diagtools/arduino_serial_rw2.py" />
+        <option value="$PROJECT_DIR$/Diagtools/arduino_serial_rw.py" />
       </list>
     </option>
   </component>
@@ -268,24 +261,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Figures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VRLatency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VRLatency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Figures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="disp_latency" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -802,7 +777,19 @@
       <option name="project" value="LOCAL" />
       <updated>1520686390512</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="display latency recording is fixed. New data for different display frame rate has been recorded and added">
+      <created>1520867380717</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1520867380717</updated>
+    </task>
+    <task id="LOCAL-00036" summary="deleted extra files">
+      <created>1520867633683</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1520867633683</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -811,17 +798,17 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13975649" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22525918" sideWeight="0.36861506" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925683" sideWeight="0.49394417" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921028" sideWeight="0.49394417" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925683" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22697055" sideWeight="0.7424961" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24960506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1965812" sideWeight="0.63138497" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19695528" sideWeight="0.63138497" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25493884" sideWeight="0.49605057" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -841,8 +828,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="no changes in code&#10;" />
-    <MESSAGE value="working on data packets sent from arduino" />
     <MESSAGE value="data packet done and received on pyhon side.&#10;speed is around 4 packets per 1 ms (32 times faster than before!)" />
     <MESSAGE value="Added new arduino and python scripts" />
     <MESSAGE value="Added natnet client for tracking" />
@@ -866,7 +851,9 @@
     <MESSAGE value="the code for display delay data recording is added. However, it must be modified to red the data all together and not one at the time." />
     <MESSAGE value="setting the trial number and LED_state in python, the rest in Arduino" />
     <MESSAGE value="working but slow" />
-    <option name="LAST_COMMIT_MESSAGE" value="working but slow" />
+    <MESSAGE value="display latency recording is fixed. New data for different display frame rate has been recorded and added" />
+    <MESSAGE value="deleted extra files" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted extra files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1181,14 +1168,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Diagtools/arduino_serial_rw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2460203">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Others/Python serial/arduino_serial_rw_example1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44283646">
@@ -1221,14 +1200,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Diagtools/arduino_serial_read.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Stimulus/Stim_with_tracking.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1237,10 +1208,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Diagtools/arduino_serial_rw2.py">
+    <entry file="file://$PROJECT_DIR$/Diagtools/arduino_serial_read.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.547561">
-          <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="73" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Diagtools/arduino_serial_rw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5141463">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
           <folding />
         </state>
       </provider>
