@@ -5,13 +5,13 @@ The LED is just a feedback to make sure the code is working
 '''
 
 import pyglet
+pyglet.options['debug_gl'] = False
+pyglet.options['debug_gl_trace'] = False
 import serial
 import numpy as np
 import pandas as pd
 import ratcave as rc
-from time import sleep
 from struct import unpack
-from itertools import cycle
 
 # create a window and project it on the display of your choice
 platform = pyglet.window.get_platform()
@@ -27,65 +27,60 @@ plane.position.xyz = 0, 0, -3
 plane.rotation.x = 0
 plane.scale.xyz = .2
 
-# initialize data for receording
-trial = 1
-POINTS = 2000
-TOTAL_POINTS = 10000  # 300000
-data = []
-
 # define (and start) the serial connection
 ARDUINO_PORT = 'COM9'
 BAUDRATE = 250000
 print('Connecting...')
-device = serial.Serial(ARDUINO_PORT, baudrate=BAUDRATE, timeout=2)
+device = serial.Serial(ARDUINO_PORT, baudrate=BAUDRATE, timeout=2.)
 print("Emptying buffer")
 device.readline()
 
-# ping test
-dd = [78, 0]
-while chr(dd[0]) != 'P':
-    device.write(b'P')
-    dd = unpack('<HI', device.read(6))
-    print(chr(dd[0]))
-
-print('init time from arduino is', dd[1]/1000, 'ms')
-
+trial = 0
+last_trial = trial
+POINTS = 240
+TOTAL_POINTS = 1000000
+data = []
 
 @mywin.event
 def on_draw():
     mywin.clear()
     with rc.default_shader:
         plane.draw()
-        # fr.draw()
+        global last_trial
+        if last_trial != trial:
+            last_trial = trial
+            device.write(b'S')
+    # fr.draw()
 
 
-pos = cycle([0, .09])
-LED_state = cycle([0, 1])
-def update(dt):
+def save_data(data):
+    dd = np.array(data).reshape(-1, 3)
+    df = pd.DataFrame(data=dd, columns=['Time', "Chan1", 'Trial'])
+    filename = 's05_120318'
+    df.to_csv('../Measurements/disp_latency/' + filename + '.csv', index=False)
 
-    global POINTS, TOTAL_POINTS, data, trial
 
-    sleep_time = np.random.random() / 5 + .05  # random numbers between 50 and 250 ms
-    sleep(sleep_time)
-    plane.position.x = next(pos)
+def start_next_trial(dt):
+    global trial
     trial += 1
+    plane.visible = True
+    pyglet.clock.schedule_once(end_trial, .05)
+pyglet.clock.schedule_once(start_next_trial, 0)
 
-    # TODO: this must be added in a thread - making it very slow
-    if len(data) < TOTAL_POINTS * 11:
-        dd = unpack('<' + 'I2H' * POINTS, device.read(8 * POINTS))
-        data.extend(dd)
-        print(dd)
 
-    else:
+def end_trial(dt):
+    global data
+    plane.visible = False
+    dd = unpack('<' + 'I2H' * POINTS, device.read(8 * POINTS))
+    data.extend(dd)
+    if len(data) > TOTAL_POINTS:
+        save_data(data)
         pyglet.app.exit()
-
-        # dd = np.array(data).reshape(-1, 5)
-        # df = pd.DataFrame(data=dd, columns=['Time', "Chan1", "Chan2", 'Trial', 'LED_State'])
-        #
-        # filename = 's01_090318'
-        # df.to_csv('../Measurements/' + filename + '.csv', index=False)
+    pyglet.clock.schedule_once(start_next_trial, np.random.random() / 5 + .1)
 
 
+def update(dt):
+    pass
 pyglet.clock.schedule(update)
 
 pyglet.app.run()
