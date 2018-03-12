@@ -1,9 +1,3 @@
-'''
-This code works with the Arduino_switch_LED_by_python as an example.
-In this code we are switching the points in the display, and sending a message to arduino to set LEDs.
-The LED is just a feedback to make sure the code is working
-'''
-
 import pyglet
 pyglet.options['debug_gl'] = False
 pyglet.options['debug_gl_trace'] = False
