@@ -1,6 +1,7 @@
 from glob import glob
 from os import path
 
+
 def task_plot_latency_hist():
     for csv_fname in glob('.\\Measurements\\*.csv'):
         fig_fname = '.\\Figures\\' + path.splitext(path.basename(csv_fname))[0] + '.png'
@@ -10,6 +11,7 @@ def task_plot_latency_hist():
             'file_dep': [csv_fname],
             'targets': [fig_fname],
         }
+
 
 def task_plot_disp_latency_hist():
     for csv_fname in glob('.\\Measurements\\disp_latency\\*.csv'):
