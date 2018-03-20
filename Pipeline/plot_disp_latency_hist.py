@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 def plot_disp_latency_hist(df, ax=None, return_data=False):
     """
-    Makes a latency plot from a dataframe made from the arduino_serial_rw.py experiment.
+    Makes a latency plot from a dataframe made from the display_latency.py experiment.
 
     Arguments:
         - retrun_data: if you want the function return the data set this to True (default is False)

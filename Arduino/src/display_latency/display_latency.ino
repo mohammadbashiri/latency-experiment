@@ -15,7 +15,7 @@ struct Packet {
 
 void setup() {
 
-  // start seria comm
+  // start serial comm
   Serial.begin(250000);       //  setup serial
   Serial.write("\n");         // 1 byte
   

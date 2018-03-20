@@ -1,3 +1,7 @@
+'''
+Measuring the display latency. This code works with the Arduino code: total_latency.io, and with the stimulus: Stim_with_tracking.py
+'''
+
 from struct import unpack
 import serial
 import numpy as np
