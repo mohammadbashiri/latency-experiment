@@ -1,3 +1,7 @@
+'''
+Measuring the display latency. This code works with the Arduino code: display_latency.ino
+'''
+
 import pyglet
 pyglet.options['debug_gl'] = False
 pyglet.options['debug_gl_trace'] = False
