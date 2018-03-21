@@ -1,12 +1,8 @@
 int analogPin_Left = 2;         // Left PhotoDiode connect on anaglog pin2  
 int analogPin_Right = 3;        // Right PhotoDiode connect on anaglog pin3  
-int win_len = 1;
+int win_len = 700;
 
-struct Packet {
-  unsigned long time_m;
-  int left; 
-  int right;
-};
+int data[700] = {0};
 
 #define FASTADC 1
 
@@ -32,18 +28,11 @@ void setup() {
   
 }
 
-Packet read_sensors(){
-  int left = 0;
-  int right = 0;
-  for (int rep=0; rep < win_len; rep++){
-    left += analogRead(analogPin_Left);
-    right += analogRead(analogPin_Right);
-  }
-  Packet data = {micros(), left, right};
-  return data;
-}
-
 void loop() {
-   Packet data = read_sensors();
-   Serial.write((byte*)&data, sizeof(data));
+  for (int ind=0; ind<win_len; ind++){
+    data[ind] = analogRead(analogPin_Left);
+  }
+   Serial.write((byte*)data, sizeof(data));
+//   Serial.write('\n');
+//  Serial.println(sizeof(data));
 }
