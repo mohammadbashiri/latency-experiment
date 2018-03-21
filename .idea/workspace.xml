@@ -1,13 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b076626-2340-4257-a3db-acd4153f53e0" name="Default" comment="tracking latency notebook added">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Arduino/src/display_latency/display_latency.ino" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Arduino/src/total_latency/total_latency.ino" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Arduino/src/tracking_latency/tracking_latency.ino" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/tracking_latency/checking.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notebooks/PosterPlots.ipynb" />
+    <list default="true" id="2b076626-2340-4257-a3db-acd4153f53e0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/tracking_latency/s01_210318.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/tracking_latency/s02_210318.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/tracking_latency/s03_210318.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/tracking_latency/s04_210318.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/tracking_latency/s05_210318.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/tracking_latency/s06_210318.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/tracking_latency/s07_210318.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/tracking_latency/s08_210318.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/tracking_latency/s09_210318.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/tracking_latency/s10_210318.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/tracking_latency/s11_210318.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/tracking_latency/s12_210318.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/tracking_latency/s13_210318.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/tracking_latency/s14_210318.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/tracking_latency/s15_210318.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/tracking_latency/s16_210318.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/tracking_latency/s01_210318.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/tracking_latency/s02_210318.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/tracking_latency/s03_210318.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/tracking_latency/s04_210318.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/tracking_latency/s05_210318.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/tracking_latency/s06_210318.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/tracking_latency/s07_210318.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/tracking_latency/s08_210318.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/tracking_latency/s09_210318.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/tracking_latency/s10_210318.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/tracking_latency/s11_210318.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/tracking_latency/s12_210318.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/tracking_latency/s13_210318.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/tracking_latency/s14_210318.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/tracking_latency/s15_210318.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/tracking_latency/s16_210318.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diagtools/tracking_latency.py" afterPath="$PROJECT_DIR$/Diagtools/tracking_latency.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Measurements/tracking_latency/checking.csv" afterPath="$PROJECT_DIR$/Measurements/tracking_latency/checking.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Notebooks/Tracking_latency_analysis.ipynb" afterPath="$PROJECT_DIR$/Notebooks/Tracking_latency_analysis.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +59,8 @@
       <file leaf-file-name="tracking_latency.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Diagtools/tracking_latency.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37362638">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.60192835">
+              <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -149,6 +178,70 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="VRLatency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VRLatency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VRLatency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Measurements" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VRLatency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VRLatency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Measurements" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tracking_latency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VRLatency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VRLatency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Figures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VRLatency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VRLatency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Figures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tracking_latency" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -675,7 +768,13 @@
       <option name="project" value="LOCAL" />
       <updated>1521133333546</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="initiated new notebook for figures">
+      <created>1521557585488</created>
+      <option name="number" value="00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1521557585488</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -684,16 +783,16 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13954712" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22525918" sideWeight="0.36861506" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925683" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29068673" sideWeight="0.7424961" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29123467" sideWeight="0.7424961" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24960506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.158984" sideWeight="0.63138497" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25493884" sideWeight="0.49605057" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -714,7 +813,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added natnet client for tracking" />
     <MESSAGE value="playing with the buffer number" />
     <MESSAGE value="latency plot is displayed with timing information about the LED switch.&#10;" />
     <MESSAGE value="cleaning up" />
@@ -739,7 +837,8 @@
     <MESSAGE value="deleted extra files" />
     <MESSAGE value="tracking delay recording code is done" />
     <MESSAGE value="tracking latency notebook added" />
-    <option name="LAST_COMMIT_MESSAGE" value="tracking latency notebook added" />
+    <MESSAGE value="initiated new notebook for figures" />
+    <option name="LAST_COMMIT_MESSAGE" value="initiated new notebook for figures" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1105,8 +1204,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Diagtools/tracking_latency.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37362638">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.60192835">
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
           <folding />
         </state>
       </provider>

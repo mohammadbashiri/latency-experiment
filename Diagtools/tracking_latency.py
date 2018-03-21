@@ -18,7 +18,7 @@ device = serial.Serial(ARDUINO_PORT, baudrate=BAUDRATE, timeout=2.)
 print("Emptying buffer")
 device.readline()
 
-TOTAL_POINTS = 10000 # 1000000
+TOTAL_POINTS = 20000 # 1000000
 data = []
 
 # initialize natnet object
@@ -28,6 +28,7 @@ LED = client.rigid_bodies['LED']
 # change the position of the LED
 pos = cycle([b'L', b'R'])
 for trial, next_pos in enumerate(pos):
+    # print(len(data))
 
     # if you have acquired enough data, stop it!
     if len(data) > TOTAL_POINTS:
@@ -49,7 +50,7 @@ for trial, next_pos in enumerate(pos):
 # Save the data
 df = pd.DataFrame(data=data, columns=['Timestamp', 'Time', "Position", 'Trial', 'LED_state'])
 
-filename = 'checking'
+filename = 's16_210318'
 df.to_csv('../Measurements/tracking_latency/' + filename + '.csv', index=False)
 
 device.close()
