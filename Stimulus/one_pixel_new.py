@@ -39,17 +39,17 @@ def on_draw():
 
 heights = itertools.cycle([mywin.height//2, mywin.height//2 + 41])
 def update(dt, heights):
-    mypoint.y = next(heights)
-
-    if keys[key.UP] and colors[0][0] < 255:
-      colors[0][0] += 1
-      colors[0][1] += 1
-      colors[0][2] += 1
-    elif keys[key.DOWN] and colors[0][0] > 0:
-      colors[0][0] -= 1
-      colors[0][1] -= 1
-      colors[0][2] -= 1
-
+    # mypoint.y = next(heights)
+    #
+    # if keys[key.UP] and colors[0][0] < 255:
+    #   colors[0][0] += 1
+    #   colors[0][1] += 1
+    #   colors[0][2] += 1
+    # elif keys[key.DOWN] and colors[0][0] > 0:
+    #   colors[0][0] -= 1
+    #   colors[0][1] -= 1
+    #   colors[0][2] -= 1
+    pass
     # print('red value is:', colors[0][0])
 
 
