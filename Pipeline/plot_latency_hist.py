@@ -7,7 +7,7 @@ import seaborn as sns
 
 def plot_latency_hist(df, win_size=9, threshold=5, ax=None, return_data=False):
     """
-    Makes a latency plot from a dataframe made from the arduino_serial_read.py experiment.
+    Makes a latency plot from a dataframe made from the total_latency.py experiment.
 
     Arguments:
         -win_size: the window size used for smoothing data.  Units are samples.
@@ -43,7 +43,7 @@ def plot_latency_hist(df, win_size=9, threshold=5, ax=None, return_data=False):
 @click.argument('fig_fname', type=click.File('wb'))
 def run_latency_analysis(csv_fname, fig_fname):
     """
-    Takes a csv file generated from the  arduino_serial_read.py experiment and outputs a figure image showing the trial latency.
+    Takes a csv file generated from the  total_latency.py experiment and outputs a figure image showing the trial latency.
     """
     data = pd.read_csv(csv_fname)
     fig, ax = plt.subplots()
