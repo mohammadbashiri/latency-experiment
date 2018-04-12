@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b076626-2340-4257-a3db-acd4153f53e0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Measurements/frame_checking.csv" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.doit.db.dat" afterPath="$PROJECT_DIR$/.doit.db.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.doit.db.bak" afterPath="$PROJECT_DIR$/.doit.db.bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.doit.db.dir" afterPath="$PROJECT_DIR$/.doit.db.dir" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arduino/Examples/LEDs/check_LED/check_LED.ino" afterPath="$PROJECT_DIR$/Arduino/Examples/LEDs/check_LED/check_LED.ino" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arduino/Examples/check_signal/per_frame/per_frame.ino" afterPath="$PROJECT_DIR$/Arduino/Examples/check_signal/per_frame/per_frame.ino" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arduino/src/total_latency/total_latency.ino" afterPath="$PROJECT_DIR$/Arduino/src/total_latency/total_latency.ino" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diagtools/display_latency.py" afterPath="$PROJECT_DIR$/Diagtools/display_latency.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diagtools/per_frame.py" afterPath="$PROJECT_DIR$/Diagtools/per_frame.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diagtools/total_latency.py" afterPath="$PROJECT_DIR$/Diagtools/total_latency.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diagtools/tracking_latency.py" afterPath="$PROJECT_DIR$/Diagtools/tracking_latency.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -85,8 +75,8 @@
       <file leaf-file-name="Stim_with_tracking.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Stimulus/Stim_with_tracking.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.72589535">
-              <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.56198347">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -220,6 +210,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches">
+        <subPane />
+      </pane>
       <pane id="Scope">
         <subPane subId="Changed Files" />
         <subPane subId="Default">
@@ -235,9 +228,6 @@
           </PATH>
         </subPane>
         <subPane subId="Project Files" />
-      </pane>
-      <pane id="Scratches">
-        <subPane />
       </pane>
       <pane id="ProjectPane">
         <subPane>
@@ -815,21 +805,27 @@
       <option name="project" value="LOCAL" />
       <updated>1521624412858</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="cleaning code">
+      <created>1523537990567</created>
+      <option name="number" value="00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1523537990567</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1180" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12848867" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11637704" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22525918" sideWeight="0.36861506" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925683" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2925682" sideWeight="0.7424961" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24960506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925683" sideWeight="0.63138497" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283161" sideWeight="0.63138497" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25493884" sideWeight="0.49605057" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -854,7 +850,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="latency plot is displayed with timing information about the LED switch.&#10;" />
     <MESSAGE value="cleaning up" />
     <MESSAGE value="dropped the index from DataFrame" />
     <MESSAGE value="cleaned up&#10;" />
@@ -879,7 +874,8 @@
     <MESSAGE value="tracking latency notebook added" />
     <MESSAGE value="initiated new notebook for figures" />
     <MESSAGE value="more data acquired for delay latency" />
-    <option name="LAST_COMMIT_MESSAGE" value="more data acquired for delay latency" />
+    <MESSAGE value="cleaning code" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaning code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1233,14 +1229,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Diagtools/total_latency.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Diagtools/display_latency.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1249,10 +1237,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Diagtools/total_latency.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Stimulus/Stim_with_tracking.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72589535">
-          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.56198347">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>

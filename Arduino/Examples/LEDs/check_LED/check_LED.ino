@@ -30,9 +30,9 @@ void loop() {
 
   set_LEDs(left_LEDs, 3, LOW);
   set_LEDs(right_LEDs, 3, HIGH);
-//  delay(500);
-//  
-//  set_LEDs(left_LEDs, 3, HIGH);
-//  set_LEDs(right_LEDs, 3, LOW);
-//  delay(500);
+  delay(1000);
+  
+  set_LEDs(left_LEDs, 3, HIGH);
+  set_LEDs(right_LEDs, 3, LOW);
+  delay(1000);
 }
