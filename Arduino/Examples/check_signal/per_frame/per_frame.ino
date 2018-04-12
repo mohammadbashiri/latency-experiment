@@ -25,7 +25,6 @@ void setup() {
   
   Serial.begin(250000);       //  setup serial
   Serial.write("\n");         // 1 byte
-  
 }
 
 void loop() {
@@ -33,6 +32,4 @@ void loop() {
     data[ind] = analogRead(analogPin_Left);
   }
    Serial.write((byte*)data, sizeof(data));
-//   Serial.write('\n');
-//  Serial.println(sizeof(data));
 }

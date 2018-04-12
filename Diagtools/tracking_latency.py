@@ -1,5 +1,6 @@
 '''
-Measuring the tracking latency. This code works with the Arduino code: tracking_latency.ino
+Measuring the tracking latency.
+This code works with the Arduino code: tracking_latency.ino
 '''
 
 import serial

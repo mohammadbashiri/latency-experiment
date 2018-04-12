@@ -1,5 +1,6 @@
 '''
-Measuring the display latency. This code works with the Arduino code: per_frame.io, and with the stimulus: Stim_with_tracking.py
+Recording per frame display signal.
+This code works with the Arduino code: per_frame.ino
 '''
 
 from struct import unpack
@@ -23,11 +24,9 @@ with serial.Serial(ARDUINO_PORT, baudrate=BAUDRATE, timeout=2.) as device:
     while len(data) < TOTAL_POINTS * 2:
         data.extend(unpack('<' + 'H' * POINTS, device.read(2 * POINTS)))
 
-
-dd = np.array(data).reshape(-1, 1)  # change this to 5 if measring delay, otherwise set to 3 for frame analysis
+# Save data
+dd = np.array(data).reshape(-1, 1)
 df = pd.DataFrame(data=dd, columns=["Chan1"])
 
-filename = 'frame_checking'
-df.to_csv('../Measurements/' + filename + '.csv', index=False)
-
-# RB stands for Rigid Body. So these are the settings that are under Rigid Body in Edit Layout
+filename = '-'
+df.to_csv('../Measurements/per_frame/' + filename + '.csv', index=False)

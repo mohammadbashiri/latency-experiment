@@ -1,5 +1,6 @@
 '''
-Measuring the display latency. This code works with the Arduino code: display_latency.ino
+Measuring the display latency.
+This code works with the Arduino code: display_latency.ino
 '''
 
 import pyglet
@@ -54,7 +55,7 @@ def on_draw():
 def save_data(data):
     dd = np.array(data).reshape(-1, 3)
     df = pd.DataFrame(data=dd, columns=['Time', "Chan1", 'Trial'])
-    filename = 's05_120318'
+    filename = 'testing'
     df.to_csv('../Measurements/disp_latency/' + filename + '.csv', index=False)
 
 

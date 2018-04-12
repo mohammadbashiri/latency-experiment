@@ -1,5 +1,6 @@
 '''
-Measuring the display latency. This code works with the Arduino code: total_latency.io, and with the stimulus: Stim_with_tracking.py
+Measuring the display latency.
+This code works with the Arduino code: total_latency.ino, and with the stimulus: Stim_with_tracking.py
 '''
 
 from struct import unpack
@@ -23,11 +24,9 @@ with serial.Serial(ARDUINO_PORT, baudrate=BAUDRATE, timeout=2.) as device:
     while len(data) < TOTAL_POINTS * 11:
         data.extend(unpack('<' + 'I3H?' * POINTS, device.read(11 * POINTS)))
 
-
+# Save data
 dd = np.array(data).reshape(-1, 5)
 df = pd.DataFrame(data=dd, columns=['Time', "Chan1", "Chan2", 'Trial', 'LED_State'])
 
-filename = 's37_060318'
+filename = '-'
 df.to_csv('../Measurements/' + filename + '.csv', index=False)
-
-# RB stands for Rigid Body. So these are the settings that are under Rigid Body in Edit Layout
