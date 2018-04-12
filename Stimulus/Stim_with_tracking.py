@@ -32,8 +32,8 @@ def on_draw():
     # fr.draw()
 
 def update(dt):                                    # for 1024x768: 2.9 - 1.2
-    plane.position.x = -LED.position.x * 2.9 - 1.2 # for 1920x1080: 1.65 - .388
-    plane.position.y = LED.position.z
+    plane.position.x = -LED.position.x * 1.6 - .39 # for 1920x1080: 1.65 - .388
+    plane.position.y = LED.position.z - .15
 
 pyglet.clock.schedule(update)
 
