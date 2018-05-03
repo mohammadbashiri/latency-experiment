@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b076626-2340-4257-a3db-acd4153f53e0" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Log/Display_Parameters.ods" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Log/Tracking_Parameters - prioritized.ods" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Log/Tracking_Parameters.ods" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.doit.db.dat" afterPath="$PROJECT_DIR$/.doit.db.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.doit.db.bak" afterPath="$PROJECT_DIR$/.doit.db.bak" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.doit.db.dir" afterPath="$PROJECT_DIR$/.doit.db.dir" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arduino/Examples/LEDs/check_LED/check_LED.ino" afterPath="$PROJECT_DIR$/Arduino/Examples/LEDs/check_LED/check_LED.ino" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diagtools/total_latency.py" afterPath="$PROJECT_DIR$/Diagtools/total_latency.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Stimulus/Stim_with_tracking.py" afterPath="$PROJECT_DIR$/Stimulus/Stim_with_tracking.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,91 +29,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tracking_latency.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Diagtools/tracking_latency.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="one_pixel_new.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Stimulus/one_pixel_new.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="per_frame.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Diagtools/per_frame.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="display_latency.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Diagtools/display_latency.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="total_latency.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="total_latency.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Diagtools/total_latency.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.70247936">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Stim_with_tracking.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Stim_with_tracking.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Stimulus/Stim_with_tracking.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plot_disp_latency_hist.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pipeline/plot_disp_latency_hist.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Stim_no_tracking.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Stimulus/Stim_no_tracking.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="one_pixel.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Stimulus/one_pixel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+            <state vertical-scroll-proportion="0.62936044">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -162,7 +95,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Text_Files/plot_latency_hist.py" />
         <option value="$PROJECT_DIR$/Diagtools/arduino_serial_read.py" />
-        <option value="$PROJECT_DIR$/Stimulus/Stim_no_tracking.py" />
         <option value="$PROJECT_DIR$/Others/Python serial/arduino_serial_rw_example1.py" />
         <option value="$PROJECT_DIR$/Others/Python serial/arduino_serial_rw_example2.py" />
         <option value="$PROJECT_DIR$/Others/Python serial/Stim_no_tracking_example1.py" />
@@ -170,7 +102,6 @@
         <option value="$PROJECT_DIR$/dodo.py" />
         <option value="$PROJECT_DIR$/Others/Python serial/tracking_latency_example1.py" />
         <option value="$PROJECT_DIR$/Diagtools/arduino_serial_rw.py" />
-        <option value="$PROJECT_DIR$/Pipeline/plot_disp_latency_hist.py" />
         <option value="$PROJECT_DIR$/Pipeline/.ipynb_checkpoints/plot_disp_latency_hist-checkpoint.py" />
         <option value="$PROJECT_DIR$/Pipeline/plot_latency_hist.py" />
         <option value="$PROJECT_DIR$/Pipeline/.ipynb_checkpoints/plot_latency_hist-checkpoint.py" />
@@ -180,6 +111,8 @@
         <option value="$PROJECT_DIR$/Diagtools/display_latency.py" />
         <option value="$PROJECT_DIR$/Stimulus/Stim_with_tracking.py" />
         <option value="$PROJECT_DIR$/Diagtools/total_latency.py" />
+        <option value="$PROJECT_DIR$/Stimulus/Stim_no_tracking.py" />
+        <option value="$PROJECT_DIR$/Pipeline/plot_disp_latency_hist.py" />
       </list>
     </option>
   </component>
@@ -214,6 +147,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches">
+        <subPane />
+      </pane>
       <pane id="Scope">
         <subPane subId="Changed Files" />
         <subPane subId="Default">
@@ -229,9 +165,6 @@
           </PATH>
         </subPane>
         <subPane subId="Project Files" />
-      </pane>
-      <pane id="Scratches">
-        <subPane />
       </pane>
       <pane id="ProjectPane">
         <subPane>
@@ -275,20 +208,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Pipeline" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VRLatency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VRLatency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Diagtools" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -298,7 +217,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../repositories/natnetclient" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -312,7 +231,7 @@
       <recent name="D:\sirotalab\Mohammad Folder\Latency Measurement\VRLatency\Diagtools" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.total_latency">
+  <component name="RunManager" selected="Python.Stim_with_tracking">
     <configuration default="false" name="Stim_no_tracking" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -547,11 +466,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.total_latency" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Stim_with_tracking" />
-        <item index="2" class="java.lang.String" itemvalue="Python.one_pixel_new" />
-        <item index="3" class="java.lang.String" itemvalue="Python.display_latency" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Stim_no_tracking" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Stim_with_tracking" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Stim_no_tracking" />
+        <item index="2" class="java.lang.String" itemvalue="Python.total_latency" />
+        <item index="3" class="java.lang.String" itemvalue="Python.one_pixel_new" />
+        <item index="4" class="java.lang.String" itemvalue="Python.display_latency" />
       </list>
     </recent_temporary>
   </component>
@@ -821,21 +740,27 @@
       <option name="project" value="LOCAL" />
       <updated>1523539789068</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="can acquire data with and qithout syncronization now.">
+      <created>1523548275266</created>
+      <option name="number" value="00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1523548275266</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1180" extended-state="6" />
+    <frame x="-4" y="-4" width="1928" height="1180" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11637704" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22525918" sideWeight="0.36861506" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283161" sideWeight="0.34807792" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925683" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2925682" sideWeight="0.7424961" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283161" sideWeight="0.65192205" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24960506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32737535" sideWeight="0.63138497" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32361242" sideWeight="0.62085307" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25493884" sideWeight="0.49605057" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -860,7 +785,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="cleaning up" />
     <MESSAGE value="dropped the index from DataFrame" />
     <MESSAGE value="cleaned up&#10;" />
     <MESSAGE value="updated readme" />
@@ -885,7 +809,8 @@
     <MESSAGE value="initiated new notebook for figures" />
     <MESSAGE value="more data acquired for delay latency" />
     <MESSAGE value="cleaning code" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleaning code" />
+    <MESSAGE value="can acquire data with and qithout syncronization now." />
+    <option name="LAST_COMMIT_MESSAGE" value="can acquire data with and qithout syncronization now." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1191,14 +1116,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stimulus/Stim_no_tracking.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Stimulus/one_pixel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1207,57 +1124,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Diagtools/tracking_latency.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pipeline/plot_disp_latency_hist.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Diagtools/per_frame.py">
+    <entry file="file://$PROJECT_DIR$/Stimulus/Stim_no_tracking.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Diagtools/display_latency.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.024709303">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Diagtools/per_frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76598835">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Stimulus/one_pixel_new.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.35755813">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stimulus/Stim_with_tracking.py">
+    <entry file="file://$PROJECT_DIR$/Diagtools/tracking_latency.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.024709303">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Diagtools/total_latency.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.70247936">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stimulus/Stim_with_tracking.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62936044">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>

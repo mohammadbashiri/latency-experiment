@@ -13,7 +13,7 @@ ARDUINO_PORT = 'COM9'
 BAUDRATE = 250000
 
 POINTS = 2000
-TOTAL_POINTS = 3000 #00
+TOTAL_POINTS = 300000
 data = []
 print('Connecting...')
 
@@ -33,5 +33,5 @@ with serial.Serial(ARDUINO_PORT, baudrate=BAUDRATE, timeout=2.) as device:
 dd = np.array(data).reshape(-1, 5)
 df = pd.DataFrame(data=dd, columns=['Time', "Chan1", "Chan2", 'Trial', 'LED_State'])
 
-filename = 'checking_msgbox'
+filename = 's38_130418_50'
 df.to_csv('../Measurements/' + filename + '.csv', index=False)
