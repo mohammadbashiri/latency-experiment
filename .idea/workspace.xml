@@ -2,15 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b076626-2340-4257-a3db-acd4153f53e0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Log/Display_Parameters.ods" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Log/Tracking_Parameters - prioritized.ods" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Log/Tracking_Parameters.ods" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/disp_latency/testing.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s24_280218.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s25_280218.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s38_130418_0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s38_130418_50.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/s38_130418_500.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/vsync_disp120_offset_0ms_move_random.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/vsync_disp120_offset_1ms_move_random.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/vsync_disp120_offset_2ms_move_random.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/vsync_disp120_offset_3ms_move_random.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/vsync_disp120_offset_4ms_move_random.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/vsync_disp120_offset_6ms_move_random.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/vsync_disp120_offset_7ms_move_random.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Figures/vsync_offset_5ms_move_random.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Log/Display_delay.ods" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Log/Total_delay.ods" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Arduino/src/synchronization/synchronization/synchronization.ino" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/disp_latency/testing.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/per_frame/frame_checking.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s38_130418_0.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s38_130418_50.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/s38_130418_500.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/vsync_disp120_offset_0ms_move_random.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/vsync_disp120_offset_1ms_move_random.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/vsync_disp120_offset_2ms_move_random.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/vsync_disp120_offset_3ms_move_random.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/vsync_disp120_offset_4ms_move_random.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/vsync_disp120_offset_6ms_move_random.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/vsync_disp120_offset_7ms_move_random.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/vsync_disp240_offset_0ms_move_random.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/vsync_disp240_offset_1_5ms_move_random.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/vsync_disp240_offset_1ms_move_random.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Measurements/vsync_offset_5ms_move_random.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.doit.db.dat" afterPath="$PROJECT_DIR$/.doit.db.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.doit.db.bak" afterPath="$PROJECT_DIR$/.doit.db.bak" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.doit.db.dir" afterPath="$PROJECT_DIR$/.doit.db.dir" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arduino/Examples/LEDs/check_LED/check_LED.ino" afterPath="$PROJECT_DIR$/Arduino/Examples/LEDs/check_LED/check_LED.ino" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diagtools/total_latency.py" afterPath="$PROJECT_DIR$/Diagtools/total_latency.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Stimulus/Stim_with_tracking.py" afterPath="$PROJECT_DIR$/Stimulus/Stim_with_tracking.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,21 +59,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="total_latency.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="total_latency.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Diagtools/total_latency.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.775">
+              <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Stim_with_tracking.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Stim_with_tracking.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Stimulus/Stim_with_tracking.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.62936044">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -109,18 +139,18 @@
         <option value="$PROJECT_DIR$/Diagtools/tracking_latency.py" />
         <option value="$PROJECT_DIR$/Diagtools/per_frame.py" />
         <option value="$PROJECT_DIR$/Diagtools/display_latency.py" />
-        <option value="$PROJECT_DIR$/Stimulus/Stim_with_tracking.py" />
-        <option value="$PROJECT_DIR$/Diagtools/total_latency.py" />
         <option value="$PROJECT_DIR$/Stimulus/Stim_no_tracking.py" />
         <option value="$PROJECT_DIR$/Pipeline/plot_disp_latency_hist.py" />
+        <option value="$PROJECT_DIR$/Stimulus/Stim_with_tracking.py" />
+        <option value="$PROJECT_DIR$/Diagtools/total_latency.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="y" value="-4" />
-    <option name="width" value="1928" />
-    <option name="height" value="1180" />
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1918" />
+    <option name="height" value="1170" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -231,7 +261,7 @@
       <recent name="D:\sirotalab\Mohammad Folder\Latency Measurement\VRLatency\Diagtools" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Stim_with_tracking">
+  <component name="RunManager" selected="Python.total_latency">
     <configuration default="false" name="Stim_no_tracking" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -466,9 +496,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Stim_with_tracking" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Stim_no_tracking" />
-        <item index="2" class="java.lang.String" itemvalue="Python.total_latency" />
+        <item index="0" class="java.lang.String" itemvalue="Python.total_latency" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Stim_with_tracking" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Stim_no_tracking" />
         <item index="3" class="java.lang.String" itemvalue="Python.one_pixel_new" />
         <item index="4" class="java.lang.String" itemvalue="Python.display_latency" />
       </list>
@@ -746,25 +776,31 @@
       <option name="project" value="LOCAL" />
       <updated>1523548275266</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="can acquire data with and qithout syncronization now.">
+      <created>1525351438882</created>
+      <option name="number" value="00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1525351438882</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1180" extended-state="0" />
+    <frame x="1" y="1" width="1918" height="1170" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11637704" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.116993114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283161" sideWeight="0.34807792" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3282588" sideWeight="0.35362625" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925683" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283161" sideWeight="0.65192205" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3282588" sideWeight="0.64637375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24960506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32361242" sideWeight="0.62085307" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32635584" sideWeight="0.61566967" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25493884" sideWeight="0.49605057" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1172,18 +1208,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Diagtools/total_latency.py">
+    <entry file="file://$PROJECT_DIR$/Stimulus/Stim_with_tracking.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stimulus/Stim_with_tracking.py">
+    <entry file="file://$PROJECT_DIR$/Diagtools/total_latency.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62936044">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.775">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
           <folding />
         </state>
       </provider>

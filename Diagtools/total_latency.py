@@ -33,5 +33,5 @@ with serial.Serial(ARDUINO_PORT, baudrate=BAUDRATE, timeout=2.) as device:
 dd = np.array(data).reshape(-1, 5)
 df = pd.DataFrame(data=dd, columns=['Time', "Chan1", "Chan2", 'Trial', 'LED_State'])
 
-filename = 's38_130418_50'
+filename = 'vsync_disp240_offset_2ms_move_random'
 df.to_csv('../Measurements/' + filename + '.csv', index=False)
